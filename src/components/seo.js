@@ -84,7 +84,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  keywords: [],
+  keywords: [`ui`, `ux`, `designer`, `personal`, `portfolio`, `front-end`, `css`, `javascript`],
 }
 
 SEO.propTypes = {
