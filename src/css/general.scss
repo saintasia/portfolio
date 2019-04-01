@@ -1,0 +1,40 @@
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+section {
+  margin-bottom: 8em;
+}
+
+.Heading{
+  &-blue:after {
+    content: "";
+    display: block;
+    margin-top: 1rem;
+    width: 2em;
+    border-top: $col-blue 3px solid;
+  }
+}
+
+.blue {
+  color: $col-blue;
+}
+
+a {
+  color: $col-text;
+}
+
+.text-link {
+  padding: 4px 0;
+  text-decoration: none;
+  background-image: linear-gradient($col-blue, $col-blue);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 50% 1px;
+  transition: background-size .3s;
+  &:hover, &:focus {
+    background-size: 100% 1px;
+  }
+}

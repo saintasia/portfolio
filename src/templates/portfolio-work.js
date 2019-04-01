@@ -11,6 +11,7 @@ export default function Template({data}) {
       <h1>{work.frontmatter.title}</h1>
       <p>Posted by {work.frontmatter.author}</p>
       <p>On {work.frontmatter.date}</p>
+      <img src={work.frontmatter.image}></img>
       <div dangerouslySetInnerHTML={{ __html: work.html }} />
     </div>
   )
@@ -25,6 +26,7 @@ export const workQuery = graphql`
         title
         author
         date
+        image
       }
     }
   }

@@ -1,0 +1,86 @@
+.Hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 2em;
+  line-height: 2;
+  &__img {
+    &__portrait {
+      max-width: 135%;
+    }
+  }
+  &__social {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    font-size: 1.2em;
+    li {
+      margin: 0 0.7em 0 0;
+      a {
+        color: $col-text-light;
+        opacity: 0.6;
+        transition: 200ms opacity ease-out;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.Works{
+  line-height: 2;
+  &__separator {
+    margin-top: 1em;
+    background: $col-border;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8em;
+    &Item {
+      &:nth-child(odd) {
+        margin-top: -40%;
+      }
+      &Text {
+        max-width: 20em;
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+  &__card {
+    height: 16em;
+    background-size: cover;
+    filter: grayscale(50%);
+    display: flex;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 1em;
+    &Text {
+      margin-top: auto;
+      > * {
+        margin: 0;
+      }
+    }
+  }
+}
+
+.More {
+  margin-top: 16rem;
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    &Item {
+      padding-right: 2em;
+      &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}
+

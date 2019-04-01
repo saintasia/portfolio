@@ -1,0 +1,46 @@
+.Footer {
+  &__inner {
+    background-color: $col-white;
+    border-radius: 5px;
+    border: 1px solid $col-border;
+    padding: 1em 2em;
+    margin: 10em 0 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    color: $col-text-light;;
+    a {
+      color: $col-text-light;
+      text-decoration: none;
+      transition: color 300ms ease-out;
+      &:hover {
+        color: $col-text;
+      }
+    }
+    &Item {
+      &:before {
+        content: "";
+        width: 1em;
+        display: block;
+        margin: 0.5em 0;
+        border-top: 1px solid $col-blue;
+      }
+      &-hidden {
+        &:before {
+          display: none;
+        }
+      }
+    }
+  }
+  &__title {
+    font-size: 16px;
+    margin: 0;
+  }
+  &__list {
+    list-style: none;
+    margin: 1em 0 0 0;
+    > li {
+      margin-bottom: 0.5em;
+    }
+  }
+}

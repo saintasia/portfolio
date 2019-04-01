@@ -9,8 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
 import Menu from "./menu"
+import Footer from "./footer"
 import "../css/main.scss"
 
 const Layout = ({ children }) => (
@@ -30,9 +30,9 @@ const Layout = ({ children }) => (
         <div className="Container">
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a>❤️ and Gatsby</a>
+            <Footer />
+            © {new Date().getFullYear()}, Designed and built by me, with&nbsp;
+            <a>❤️and Gatsby</a>
           </footer>
         </div>
       </>
