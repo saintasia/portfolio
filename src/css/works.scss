@@ -1,0 +1,136 @@
+@import './mixins.scss';
+
+.Works {
+  &__hero {
+    @include HugeMarginTop;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @include screen-size-s {
+      grid-template-columns: 1fr;
+      grid-gap: 1em;
+    }
+    &__txt {
+      padding-right: 4em;
+      @include screen-size-s {
+        padding-right: 0;
+      }
+    }
+    &__img {
+      width: 150%;
+      @include screen-size-s {
+        width: auto;
+      }
+      & > img {
+        border-radius: 5px;
+      }
+    }
+  }
+  &__main {
+    line-height: 1.8;
+    > br {
+      font-size: 400%;
+      @include screen-size-s {
+        font-size: 200%;
+      }
+    }
+    &__img {
+      @include screen-size-s {
+        display: none;
+      }
+      img {
+        margin: 0 -5%;
+        max-width: 110%;
+      }
+    }
+    ul {
+      margin-top: -1.5em;
+      li {
+        margin: 0;
+      }
+    }
+    blockquote {
+      margin: -1.5em 0 0;
+      color: $col-text-light;
+      font-weight: 600;
+    }
+    code {
+      font-family: inherit;
+      background-color: rgba($col-blue, .1);
+    }
+    &__txt {
+      padding: 0 4em;
+      @include screen-size-s {
+        padding: 0 1em;
+      }
+    }
+  }
+  &__grid__half {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    @include screen-size-s {
+      grid-template-columns: 1fr;
+      grid-gap: 1em;
+    }
+  }
+  &__grid__third {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    margin-top: 4em;
+    align-items: center;
+    @include screen-size-s {
+      grid-template-columns: 1fr;
+      margin-top: 2em;
+      grid-gap: 1em;
+    }
+  }
+  &__block {
+    border: 1px solid $col-blue;
+  }
+  &__modalImg {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: all 300ms ease-out;
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      transition: all 300ms ease-out;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+      background-size: 100% 200%;
+      background-position: center top;
+    }
+    img {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+      right: -9999px;
+      bottom: -9999px;
+      margin: auto;
+      filter: grayscale(100%);
+    }
+    p {
+      position: absolute;
+      bottom: 1em;
+      left: 1em;
+      right: 1em;
+      margin: 0;
+      font-weight: 700;
+      color: $col-white;
+      z-index: 2;
+    }
+    &:hover {
+      &:after {
+        background-position: center center;
+      }
+    }
+  }
+}

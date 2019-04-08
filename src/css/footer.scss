@@ -1,14 +1,19 @@
+@import './mixins.scss';
+
 .Footer {
   &__inner {
     background-color: $col-white;
     border-radius: 5px;
     border: 1px solid $col-border;
     padding: 1em 2em;
-    margin: 10em 0 2em;
+    @include HugeMarginTop;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
-    color: $col-text-light;;
+    color: $col-text-light;
+    @include screen-size-s {
+      grid-template-columns: 1fr;
+    }
     a {
       color: $col-text-light;
       text-decoration: none;

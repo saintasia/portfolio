@@ -1,0 +1,42 @@
+@import './vars.scss';
+
+@mixin HugeMarginTop {
+  @media only screen and (min-width: $screen-width-m){
+    margin-top: 8rem;
+  }
+  @media only screen and (min-width: $screen-width-s){
+    margin-top: 6rem;
+  }
+  @media only screen and (max-width: $screen-width-s){
+    margin-top: 4rem;
+  }
+}
+
+@mixin HugeMarginBottom {
+  @media only screen and (min-width: $screen-width-m){
+    margin-bottom: 8rem;
+  }
+  @media only screen and (min-width: $screen-width-s){
+    margin-bottom: 6rem;
+  }
+  @media only screen and (max-width: $screen-width-s){
+    margin-bottom: 4rem;
+  }
+}
+
+//screen-sizes
+@mixin screen-size-xs {
+  @media screen and (max-width: $screen-width-xs) {
+    @content;
+  }
+}
+@mixin screen-size-s {
+  @media screen and (max-width: $screen-width-s) {
+    @content;
+  }
+}
+@mixin screen-size-m {
+  @media screen and (max-width: $screen-width-m) {
+    @content;
+  }
+}

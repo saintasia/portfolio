@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin } from 'react-icons/fa';
 
 const Footer = ({data}) => (
   <div className="Footer">
@@ -10,13 +10,13 @@ const Footer = ({data}) => (
           <h3 className="Footer__title">Works:</h3>
           <ul className="Footer__list">
             <li><Link to="/works/flora-u" className="">Flora-U Mobile App</Link></li>
-            <li><Link to="/works/project-management" className="">Project Management App</Link></li>    
+            <li><Link to="/works/project-management" className="">Project Management Web App</Link></li>
           </ul>
         </div>
         <div className="Footer__innerItem">
           <h3 className="Footer__title">Experiments:</h3>
           <ul className="Footer__list">
-            <li><a href="#" className="">The Daily UI Challenge</a></li>
+            <li><a href="https://dribbble.com/saintasia/tags/dailyui" rel="noopener" target="_blank" className="">The Daily UI Challenge</a></li>
           </ul>
         </div>
         <div className="Footer__innerItem Footer__innerItem-hidden"></div>
@@ -32,7 +32,7 @@ const Footer = ({data}) => (
             <li><a href="https://codepen.io/saintasia/" rel="noopener" target="_blank"><FaCodepen /></a></li>
             <li><a href="https://github.com/saintasia" rel="noopener" target="_blank"><FaGithub /></a></li>
             <li><a href="https://medium.com/@saintasia" rel="noopener" target="_blank"><FaMediumM /></a></li>
-            <li><a href="https://www.linkedin.com/in/anastasia-kashkinova-aa2874a3/" rel="noopener" target="_blank"><FaLinkedin /></a></li>
+            <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener" target="_blank"><FaLinkedin /></a></li>
           </ul>
         </div>
       </div>

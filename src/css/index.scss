@@ -1,12 +1,25 @@
+@import './mixins.scss';
+
 .Hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   grid-gap: 2em;
   line-height: 2;
+  @include screen-size-s {
+    grid-template-columns: 1fr;
+  }
   &__img {
+    @include screen-size-s {
+      text-align: center;
+    }
     &__portrait {
       max-width: 135%;
+      @include screen-size-s {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+      }
     }
   }
   &__social {
@@ -39,9 +52,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 8em;
+    @include screen-size-m {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 6em;
+    }
+    @include screen-size-s {
+      grid-template-columns: 1fr;
+      grid-gap: 4em;
+    }
     &Item {
       &:nth-child(odd) {
         margin-top: -40%;
+        @include screen-size-s {
+          margin-top: 0;
+        }
       }
       &Text {
         max-width: 20em;
@@ -52,7 +76,7 @@
     }
   }
   &__card {
-    height: 16em;
+    height: 20em;
     background-size: cover;
     filter: grayscale(50%);
     display: flex;
@@ -69,10 +93,14 @@
 }
 
 .More {
-  margin-top: 16rem;
+  @include HugeMarginTop;
   &__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    @include screen-size-m {
+      grid-template-columns: 1fr;
+      grid-gap: 2em;
+    }
     &Item {
       padding-right: 2em;
       &__list {

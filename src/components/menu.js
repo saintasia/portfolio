@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link'
+import { FaChevronDown } from 'react-icons/fa';
 import logo from "../images/logo.svg"
 
 const Menu = () => (
@@ -8,6 +9,13 @@ const Menu = () => (
       <ul className="Navi__list">
         <Link to="/" className="Navi__logo"><img src={logo} alt="Logo" /></Link>
         <li><Link to="/" className="Navi__listLink">Home</Link></li>
+        <li className="Navi__listLinkDropdown">
+          <div className="Navi__listLink">Works <FaChevronDown className="small" /></div>
+          <ul className="Navi__listSub">
+            <li><Link to="/works/flora-u" className="">Flora-U Mobile App</Link></li>
+            <li><Link to="/works/project-management" className="">Project Management Web App</Link></li>
+          </ul>
+        </li>
         <li><Link to="/about" className="Navi__listLink">About</Link></li>
         <li><Link to="/contact" className="Navi__listLink">Contact</Link></li>
       </ul>

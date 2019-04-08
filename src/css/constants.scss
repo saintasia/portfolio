@@ -1,8 +1,22 @@
+@import './mixins.scss';
+
 .Container {
   width: 90%;
   max-width: 1024px;
   margin: 0 auto;
   &__overflow {
     margin: 0 -2%;
+    @include screen-size-s {
+      margin: 0;
+    }
+  }
+  &-slim {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 2em 2em 0.5em;
+    @include screen-size-s {
+      padding: 1em 0.5em 0;
+    }
+    text-align: center;
   }
 }

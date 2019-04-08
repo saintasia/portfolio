@@ -1,11 +1,15 @@
+@import './mixins.scss';
+
 h1, h2, h3 {
   font-family: 'Playfair Display', serif;
   font-weight: 800;
   margin-bottom: 1em;
+  line-height: 1.4;
 }
 
 section {
-  margin-bottom: 8em;
+  @include HugeMarginBottom;
+  @include HugeMarginTop;
 }
 
 .Heading{
@@ -37,4 +41,25 @@ a {
   &:hover, &:focus {
     background-size: 100% 1px;
   }
+}
+
+.back-link {
+  text-decoration: none;
+  color: $col-blue;
+  font-weight: 600;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+  > svg {
+    margin-right: 0.5em;
+  }
+}
+
+.self-center {
+  align-self: center;
+}
+
+.small {
+  font-size: 0.6em;
 }

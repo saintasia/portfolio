@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin } from 'react-icons/fa';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -21,7 +21,7 @@ const IndexPage = ({data}) => (
             <li><a href="https://codepen.io/saintasia/" rel="noopener" target="_blank"><FaCodepen /></a></li>
             <li><a href="https://github.com/saintasia" rel="noopener" target="_blank"><FaGithub /></a></li>
             <li><a href="https://medium.com/@saintasia" rel="noopener" target="_blank"><FaMediumM /></a></li>
-            <li><a href="https://www.linkedin.com/in/anastasia-kashkinova-aa2874a3/" rel="noopener" target="_blank"><FaLinkedin /></a></li>
+            <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener" target="_blank"><FaLinkedin /></a></li>
           </ul>
         </div>
         <div className="Hero__img">
@@ -44,7 +44,7 @@ const IndexPage = ({data}) => (
               }}>
                 <div className="Works__cardText">
                   <b>{ work.node.frontmatter.title }</b>
-                  <p>Posted by { work.node.frontmatter.author } on { work.node.frontmatter.date }</p>
+                  <p>{ work.node.frontmatter.role }</p>
                 </div>
               </div>
             </Link>
@@ -87,7 +87,10 @@ export const pageQuery = graphql`
             path
             title
             date
-            author
+            role
+            del1
+            del2
+            del3
             image
           }
         }
