@@ -58,7 +58,7 @@
     }
     @include screen-size-s {
       grid-template-columns: 1fr;
-      grid-gap: 4em;
+      grid-gap: 2em;
     }
     &Item {
       &:nth-child(odd) {

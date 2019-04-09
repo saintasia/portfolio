@@ -2,7 +2,7 @@
 
 .Works {
   &__hero {
-    @include HugeMarginTop;
+    @include LargeMarginTop;
     display: grid;
     grid-template-columns: 1fr 1fr;
     @include screen-size-s {

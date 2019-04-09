@@ -8,8 +8,8 @@ h1, h2, h3 {
 }
 
 section {
-  @include HugeMarginBottom;
-  @include HugeMarginTop;
+  @include LargeMarginBottom;
+  @include LargeMarginTop;
 }
 
 .Heading{

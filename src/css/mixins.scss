@@ -1,6 +1,6 @@
 @import './vars.scss';
 
-@mixin HugeMarginTop {
+@mixin LargeMarginTop {
   @media only screen and (min-width: $screen-width-m){
     margin-top: 8rem;
   }
@@ -12,7 +12,20 @@
   }
 }
 
-@mixin HugeMarginBottom {
+@mixin HugeMarginTop {
+  @media only screen and (min-width: $screen-width-m){
+    margin-top: 12rem;
+  }
+  @media only screen and (min-width: $screen-width-s){
+    margin-top: 8rem;
+  }
+  @media only screen and (max-width: $screen-width-s){
+    margin-top: 6rem;
+  }
+}
+
+
+@mixin LargeMarginBottom {
   @media only screen and (min-width: $screen-width-m){
     margin-bottom: 8rem;
   }
