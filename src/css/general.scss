@@ -12,6 +12,12 @@ section {
   @include LargeMarginTop;
 }
 
+main {
+  p {
+    line-height: 2;
+  }
+}
+
 .Heading{
   &-blue:after {
     content: "";
@@ -62,4 +68,10 @@ a {
 
 .small {
   font-size: 0.6em;
+}
+
+.Main__Container {
+  max-width: 38em;
+  // margin: 0 auto;
+  @include LargeMarginTop;
 }

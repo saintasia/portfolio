@@ -25,7 +25,7 @@ _**The users** are consumers and local florsits. Consumers are a wide range of p
 <div class="Container-slim">
 
 ##Role and approach
-This project was a part of a bootcamp, and had to be completed within three weeks. I was in charge of market research, surveys, user interviews and rounds of user testing. Using the aquired information I could then transfer what I learned into the UI design for the high-fidelity prototype and UI styleguide for furhter use.
+This project was a part of a bootcamp, and had to be completed within **three weeks**. I was in charge of market research, surveys, user interviews and rounds of user testing. Using the aquired information I could then transfer what I learned into the UI design for the high-fidelity prototype and UI styleguide for furhter use.
 
 ![design thinking][design-thinking]
 
@@ -43,7 +43,7 @@ This project was a part of a bootcamp, and had to be completed within three week
 <div class="Works__main__txt self-center">
 
 ##Discover
-The discovery phase started with a comprehensive competitive research and running a survey of 25 participants via UsabilityHub to identify common user struggles and needs. Based on that data, 2 primary personas and their use cases were crafted, followed by functionality ideation and moodboarding.
+The discovery phase started with a comprehensive competitive research and running a **survey of 25 participants** via UsabilityHub to identify common user struggles and needs. Based on that data, **2 primary personas** and their use cases were crafted, followed by functionality ideation and moodboarding.
 
 </div><!-- text end -->
 <!-- text -->
@@ -102,7 +102,7 @@ The discovery phase started with a comprehensive competitive research and runnin
 <div class="Works__main__txt">
 
 ##Design
-Based on the personas created, the use cases, as well project constraints and stakeholder wishes, I have created 3 task flows for both the consumer and the floral businesses. Once the task flows were ready I created wireframes of 24 screens to support primary user goals, before testing them with 3 users and further refining designs based on the results.
+Based on the personas created, the use cases, as well project constraints and stakeholder wishes, I have created **3 task flows** for both the consumer and the floral businesses. Once the task flows were ready I created wireframes of **24 screens** to support primary user goals, before testing them with **3 users** and further refining designs based on the results.
 
 </div><!-- text end -->
 <!-- img -->
@@ -156,7 +156,7 @@ _`Move the credit card propmt to when the user is checking out instead, as well 
 <div class="Works__main__txt">
 
 ##Deliver
-The deliverables for this project were UI style guide and a high-fidelity prototype. The color scheme was decided to have only one main color and be grey-based to make it adaptable to any content. Once the elements were designed based on usability best pracitces, a high-fidelity prototype was created. Running another user test with 2 participants uncovered new issues that were improved, as you can check from the following prototype.
+The deliverables for this project were **UI style guide** and a **high-fidelity prototype**. The color scheme was decided to have only one main color and be grey-based to make it adaptable to any content. Once the elements were designed based on usability best pracitces, a high-fidelity prototype was created. Running another user test with **2 participants** uncovered new issues that were improved, as you can check from the following prototype.
 
 </div><!-- text end -->
 </div><!-- two col layout end -->

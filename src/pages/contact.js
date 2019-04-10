@@ -5,8 +5,23 @@ import SEO from "../components/seo"
 const ContactPage = () => (
   <Layout>
     <SEO title="About"/>
-    <h1>Contact me</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sunt aperiam totam saepe, repellat quibusdam possimus. Mollitia reiciendis voluptas corporis fuga provident et? Ad porro, molestias nobis odio quam sapiente aliquam, cumque consequatur facere est similique! Minima nulla distinctio at!</p>
+    <div className="Main__Container">
+      <h1>Contact me</h1>
+      <form className="Contact__Form" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" netlify>
+        <div class="Contact__Form__Field">
+          <input type="email" name="email" size="50" required />
+          <label for="email">Email:</label>
+        </div>
+        <div class="Contact__Form__Field">
+          <textarea name="message" rows="1" cols="49" required></textarea>
+          <label for="message">Message:</label>
+        </div>
+        <div data-netlify-recaptcha="true"></div>
+        <p>
+          <button className="Contact__Form__Button" type="submit">Send</button>
+        </p>
+      </form>
+    </div>
   </Layout>
 )
 

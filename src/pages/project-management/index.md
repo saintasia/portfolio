@@ -26,7 +26,7 @@ _**The users** are start-up owners and employees ages 20-40, who are struggling 
 <div class="Container-slim">
 
 ##Role and approach
-This project was a part of bootcamp, and I had three weeks to complete all phases of the design thinking aporach. I was working alone, doing consumer and market research, user interviews and rounds of user testing, as well as visual design for UI and final MVP high-fidelity prototype.
+This project was a part of bootcamp, and I had **three weeks** to complete all phases of the design thinking aporach. I was working alone, doing consumer and market research, user interviews and rounds of user testing, as well as visual design for UI and final MVP high-fidelity prototype.
 
 ![design thinking][design-thinking]
 
@@ -44,7 +44,7 @@ This project was a part of bootcamp, and I had three weeks to complete all phase
 <div class="Works__main__txt self-center">
 
 ##Discover
-I started the discovery phase of the project by going through the project constraints and needs, running market and consumer research, as well as implementing qualitative techniques and interviewing 4 potential users. Based on the data gathered, I could synthesize 2 primary personas, 5 use cases, moodboards and initial functionality ideas.
+I started the discovery phase of the project by going through the project constraints and needs, running market and consumer research, as well as implementing qualitative techniques and **interviewing 4 potential users**. Based on the data gathered, I could synthesize **2 primary personas**, **5 use cases**, moodboards and initial functionality ideas.
 
 </div><!-- text end -->
 <!-- text -->
@@ -87,7 +87,7 @@ I started the discovery phase of the project by going through the project constr
 <div class="Works__main__txt">
 
 ##Design
-Based on the interviewees’ feedbacks, use cases of our personas and client requirements, I then created 4 task flows that helped me define main functionality I needed for the initial wireframes and prototype. Once the prototype was ready, it was tested out by 3 users and refined based on their feedback. The refined solutions were then tested again until users were satisfied.
+Based on the interviewees’ feedbacks, use cases of our personas and client requirements, I then created **4 task flows** that helped me define main functionality I needed for the initial wireframes and prototype. Once the prototype was ready, it was tested out by **3 users** and refined based on their feedback. The refined solutions were then tested again until users were satisfied.
 
 </div><!-- text end -->
 <!-- img -->
@@ -143,7 +143,7 @@ _`As different tools use different naming conventions, the word ‘Messages’ c
 <div class="Works__main__txt">
 
 ##Deliver
-The deliverables for this project were UI style guide and a high-fidelity prototype. The color scheme was decided to have only one main color and be grey-based to make it adaptable to any content. Once the elements were designed based on usability best pracitces, a high-fidelity prototype was created. Running another user test with 2 participants uncovered new issues that were improved, as you can check from the following prototype.
+The deliverables included **UI style guide** and a **high-fidelity prototype**. Once the color scheme and typography were in place, the elements were put togehter and a prototype supporting main user flows was created. To uncover any inconsistencies and usability flows before moving onto the next step, another round of **user testing** with **2 users** as well as **A/B testing** was held. Based on the findings, more tweaks were made to the prototype that you can click through below.
 
 </div><!-- text end -->
 </div><!-- two col layout end -->
