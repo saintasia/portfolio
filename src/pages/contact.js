@@ -7,7 +7,7 @@ const ContactPage = () => (
     <SEO title="About"/>
     <div className="Main__Container">
       <h1>Contact me</h1>
-      <form className="Contact__Form" name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" netlify>
+      <form className="Contact__Form" name="contact" method="POST" data-netlify="true">
         <div class="Contact__Form__Field">
           <input type="email" name="email" size="50" required />
           <label for="email">Email:</label>
@@ -16,7 +16,6 @@ const ContactPage = () => (
           <textarea name="message" rows="1" cols="49" required></textarea>
           <label for="message">Message:</label>
         </div>
-        <div data-netlify-recaptcha="true"></div>
         <p>
           <button className="Contact__Form__Button" type="submit">Send</button>
         </p>
