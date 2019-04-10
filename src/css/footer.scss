@@ -12,6 +12,9 @@
     grid-gap: 1em;
     color: $col-text-light;
     @include screen-size-s {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include screen-size-xs {
       grid-template-columns: 1fr;
     }
     a {
@@ -34,6 +37,9 @@
         &:before {
           display: none;
         }
+        @include screen-size-s {
+          display: none;   
+        }
       }
     }
   }
@@ -47,5 +53,10 @@
     > li {
       margin-bottom: 0.5em;
     }
+  }
+  &__copy {
+    color: $col-text-light;
+    font-size: 0.75em;
+    margin: 2em 0;
   }
 }

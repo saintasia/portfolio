@@ -12,7 +12,7 @@ image: "/images/flora-u/main.png"
 [design-thinking]: /images/flora-u/design-thinking.png "Design thinking"
 [personas]: /images/flora-u/personas.png "Personas"
 [taskflows]: /images/flora-u/taskflows.png "Task flows"
-[deliverables]: /images/flora-u/main.png "Deliverables"
+[deliverables]: /images/flora-u/deliverables.png "Deliverables"
 
 <br />
 <div class="Works__block Container-slim">
@@ -146,8 +146,8 @@ _`Move the credit card propmt to when the user is checking out instead, as well 
 <br />
 <!-- two col layout -->
 <div class="Works__grid__half Container__overflow">
-<!-- text -->
-<div>
+<!-- img -->
+<div class="Works__main__img">
 
 ![deliverables][deliverables]
 

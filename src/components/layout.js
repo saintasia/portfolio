@@ -30,8 +30,9 @@ const Layout = ({ children }) => (
           <main>{children}</main>
           <footer>
             <Footer />
-            © {new Date().getFullYear()}, Designed and built by me, with&nbsp;
-            <a>❤️and Gatsby</a>
+            <div className="Footer__copy">
+              © {new Date().getFullYear()}, Designed and built by me, with ❤️and Gatsby
+            </div>
           </footer>
         </div>
       </>

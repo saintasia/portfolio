@@ -11,15 +11,10 @@
   }
   &__img {
     @include screen-size-s {
-      text-align: center;
+      display: none;
     }
     &__portrait {
       max-width: 135%;
-      @include screen-size-s {
-        max-width: 500px;
-        width: 100%;
-        margin: 0 auto;
-      }
     }
   }
   &__social {

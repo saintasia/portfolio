@@ -3,7 +3,6 @@ import Link from 'gatsby-link';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { FaArrowLeft } from 'react-icons/fa';
-import { Helmet } from "react-helmet";
 
 export default function Template({data}) {
   const work = data.markdownRemark;
@@ -31,9 +30,6 @@ export default function Template({data}) {
       </div>
       <div className="Works__main" dangerouslySetInnerHTML={{ __html: work.html }} />
       <div id="modal"></div>
-      <Helmet>
-        <script type="text/javascript" src="/scripts/modal.js"></script>
-      </Helmet>
     </Layout>
   )
 }

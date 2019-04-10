@@ -11,6 +11,10 @@
     }
     &__txt {
       padding-right: 4em;
+      ul {
+        list-style: none;
+        margin: 0.5em 0 0;
+      }
       @include screen-size-s {
         padding-right: 0;
       }
