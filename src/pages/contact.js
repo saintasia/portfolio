@@ -7,7 +7,8 @@ const ContactPage = () => (
     <SEO title="About"/>
     <div className="Main__Container">
       <h1>Contact me</h1>
-      <form className="Contact__Form" name="contact" method="POST" data-netlify="true">
+      <form className="Contact__Form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
         <div class="Contact__Form__Field">
           <input type="email" name="email" size="50" required />
           <label for="email">Email:</label>
