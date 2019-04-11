@@ -9,7 +9,7 @@ import portrait from "../images/portrait.png"
 
 const IndexPage = ({data}) => (
   <Layout>
-    <SEO title="Home"/>
+    <SEO title="Anastasia K. Digital Creator | Home"/>
     <section>
       <div className="Hero">
         <div className="Hero__text">

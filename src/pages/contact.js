@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="About"/>
+    <SEO title="Anastasia K. Digital Creator | Contact"/>
     <div className="Main__Container">
       <h1>Contact me</h1>
       <form className="Contact__Form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">

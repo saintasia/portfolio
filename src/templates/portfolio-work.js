@@ -9,7 +9,7 @@ export default function Template({data}) {
 
   return (
     <Layout>
-      <SEO title={`Works | ${work.frontmatter.title}`}/>
+      <SEO title={`Anastasia K. Digital Creator | Works | ${work.frontmatter.title}`}/>
       <div className="Works__hero">
         <div className="Works__hero__txt">
           <Link className="back-link" to="/"><FaArrowLeft/> Back</Link>

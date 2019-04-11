@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Anastasia Kas - Digital Designer`,
-    description: `Personal portfolio: UI/UX design, Front-end Development and more.`,
+    title: `Anastasia Kas - Digital Designer & Creator`,
+    description: `Anastasia Kas: Digital Creator Portfolio.`,
     author: `@saintasia`,
   },
   plugins: [
