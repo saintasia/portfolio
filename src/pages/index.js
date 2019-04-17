@@ -4,7 +4,7 @@ import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin } from 'react-ic
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import portrait from "../images/portrait.png"
+import Image from "../components/imgs/portrait"
 
 
 const IndexPage = ({data}) => (
@@ -25,7 +25,10 @@ const IndexPage = ({data}) => (
           </ul>
         </div>
         <div className="Hero__img">
-          <img src={portrait} alt="portrait" className="Hero__img__portrait" />
+          {/* <img src={portrait} alt="portrait" className="Hero__img__portrait" /> */}
+          <div className="Hero__img__portrait">
+            <Image alt="portrait"/>
+          </div>
         </div>
       </div>
     </section>
@@ -66,7 +69,7 @@ const IndexPage = ({data}) => (
         </div>
         <div className="More__gridItem">
           <h2>Experiments</h2>
-          <a className="text-link" href="https://dribbble.com/saintasia/tags/dailyui" target="_blank" rel="noopener">The Daily UI challenge (Dribble)</a>
+          <Link to="experiments/dailyui" className="text-link">The Daily UI challenge</Link>
         </div>
         <div className="More__gridItem">
           <h2>Other</h2>

@@ -20,6 +20,13 @@ module.exports = {
         limit: 3,
       },
     },
+    {
+      resolve: `gatsby-source-dribbble`,
+      options: {
+          // You can get your Access Token by following this tutorial: http://developer.dribbble.com/v2/oauth/
+          access_token: '77bb40ca541c390e7351f1be9fa07a5877b4950874729bc9ca2c0ac745e533ef'
+      }
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-catch-links`,
     {

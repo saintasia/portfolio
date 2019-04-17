@@ -16,7 +16,7 @@ const Footer = ({data}) => (
         <div className="Footer__innerItem">
           <h3 className="Footer__title">Experiments:</h3>
           <ul className="Footer__list">
-            <li><a href="https://dribbble.com/saintasia/tags/dailyui" rel="noopener" target="_blank" className="">The Daily UI Challenge</a></li>
+            <li><Link to="/experiments/dailyui">The Daily UI Challenge</Link></li>
           </ul>
         </div>
         <div className="Footer__innerItem Footer__innerItem-hidden"></div>

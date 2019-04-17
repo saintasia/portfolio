@@ -24,6 +24,17 @@
   }
 }
 
+@mixin HugeMarginBottom {
+  @media only screen and (min-width: $screen-width-m){
+    margin-bottom: 12rem;
+  }
+  @media only screen and (min-width: $screen-width-s){
+    margin-bottom: 8rem;
+  }
+  @media only screen and (max-width: $screen-width-s){
+    margin-bottom: 6rem;
+  }
+}
 
 @mixin LargeMarginBottom {
   @media only screen and (min-width: $screen-width-m){

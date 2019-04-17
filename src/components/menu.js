@@ -40,6 +40,12 @@ class Menu extends React.Component {
                   <li><Link to="/works/project-management" className="">Project Management Web App</Link></li>
                 </ul>
               </li>
+              <li className="Navi__listLinkDropdown">
+                <div className="Navi__listLink">Experiments <FaChevronDown className="small" /></div>
+                <ul className="Navi__listSub">
+                  <li><Link to="/experiments/dailyui" className="">The Daily UI Challenge</Link></li>
+                </ul>
+              </li>
               <li><Link to="/about" className="Navi__listLink">About</Link></li>
               <li><Link to="/contact" className="Navi__listLink">Contact</Link></li>
             </div>

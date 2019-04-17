@@ -24,7 +24,7 @@
       @include screen-size-s {
         width: auto;
       }
-      & > img {
+      img {
         border-radius: 5px;
       }
     }
@@ -137,4 +137,26 @@
       }
     }
   }
+
+  &__exp {
+    @include HugeMarginTop;
+    @include HugeMarginBottom;
+    &Card {
+      @include LargeMarginBottom;
+    }
+    &Img {
+      img {
+        transition: all 300ms ease-out;
+        border-radius: 5px;
+        filter: brightness(0.97);
+      }
+      &:hover {
+        img {
+          border-radius: 5px;
+          filter: brightness(1);
+        }
+      }
+    }
+  }
+
 }
