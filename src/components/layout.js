@@ -11,6 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Menu from "./menu"
 import Footer from "./footer"
 import "../css/main.scss"
+import PageTransition from 'gatsby-plugin-page-transitions';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -27,7 +28,9 @@ const Layout = ({ children }) => (
       <>
         <Menu />
         <div className="Container">
-          <main>{children}</main>
+          <PageTransition>
+            <main>{children}</main>
+          </PageTransition>
           <footer>
             <Footer />
             <div className="Footer__copy">
