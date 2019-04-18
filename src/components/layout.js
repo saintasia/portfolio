@@ -11,8 +11,9 @@ import { StaticQuery, graphql } from "gatsby"
 import Menu from "./menu"
 import Footer from "./footer"
 import "../css/main.scss"
+import Fade from 'react-reveal/Fade';
 
-const Layout = ({ children }) => (
+const Layout = ({ children, location }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -27,7 +28,9 @@ const Layout = ({ children }) => (
       <>
         <Menu />
         <div className="Container">
-          <main>{children}</main>
+          <Fade>
+            <main>{children}</main>
+          </Fade>
           <footer>
             <Footer />
             <div className="Footer__copy">

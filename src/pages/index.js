@@ -6,7 +6,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Image from "../components/imgs/portrait"
 
-
 const IndexPage = ({data}) => (
   <Layout>
     <SEO title="Anastasia K. Digital Creator | Home"/>
