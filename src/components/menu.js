@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link'
 import { FaChevronDown } from 'react-icons/fa';
-import logo from "../images/logo.svg"
+import Logo from "../images/logo.svg"
 
 class Menu extends React.Component {  
   constructor(props) {
@@ -25,7 +25,7 @@ class Menu extends React.Component {
           : null}`}>
         <div className="Container">
           <ul className="Navi__list">
-            <Link to="/" className="Navi__logo"><img src={logo} alt="Logo" /></Link>
+            <Link to="/" className="Navi__logo"><Logo /></Link>
             <a href="" className="Navi__toggle menu-button" onClick={this.handleClick}>
               <span className="bar"></span>
               <span className="bar"></span>
