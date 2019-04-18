@@ -6,6 +6,7 @@
   align-items: center;
   grid-gap: 2em;
   line-height: 2;
+  @include MassiveMarginBottom;
   @include screen-size-s {
     grid-template-columns: 1fr;
   }
@@ -38,6 +39,8 @@
 }
 
 .Works{
+  @include HugeMarginTop;
+  @include HugeMarginBottom;
   line-height: 2;
   &__separator {
     margin-top: 1em;
@@ -46,14 +49,14 @@
   &__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 8em;
+    grid-gap: 10em;
     @include screen-size-m {
       grid-template-columns: 1fr 1fr;
-      grid-gap: 6em;
+      grid-gap: 8em;
     }
     @include screen-size-s {
       grid-template-columns: 1fr;
-      grid-gap: 2em;
+      grid-gap: 5em;
     }
     &Item {
       &:nth-child(odd) {
@@ -97,7 +100,8 @@
 }
 
 .More {
-  @include HugeMarginTop;
+  @include MassiveMarginTop;
+  @include MassiveMarginBottom;
   &__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
