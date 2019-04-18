@@ -32,7 +32,6 @@ class Menu extends React.Component {
               <span className="bar"></span>
             </a>
             <div className="Navi__listMob">
-            <li><Link to="/" className="Navi__listLink">Home</Link></li>
               <li className="Navi__listLinkDropdown">
                 <div className="Navi__listLink">Works <FaChevronDown className="small" /></div>
                 <ul className="Navi__listSub">
