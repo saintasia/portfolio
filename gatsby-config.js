@@ -66,7 +66,7 @@ module.exports = {
           families: ['Playfair Display:700,900', 'Raleway:400,400i,700,700i']
         }
       }
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',

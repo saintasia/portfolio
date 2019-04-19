@@ -11,7 +11,10 @@ import { StaticQuery, graphql } from "gatsby"
 import Menu from "./menu"
 import Footer from "./footer"
 import "../css/main.scss"
+import config from 'react-reveal/globals';
 import Fade from 'react-reveal/Fade';
+
+config({ ssrFadeout: true });
 
 const Layout = ({ children, location }) => (
   <StaticQuery
