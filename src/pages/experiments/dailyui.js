@@ -40,7 +40,7 @@ const DailyUi = () => (
           <div><b>Type:</b><p>Daily challenges to practice and experiment in the field of UI design</p></div>
         </div>
         <div className="Works__hero__img">
-          <Image />
+          <Image alt="Daily UI Cover" />
         </div>
       </div>
       <div className="Works__exp">
