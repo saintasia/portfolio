@@ -14,6 +14,7 @@
     "gatsby-plugin-react-svg": "^2.1.1",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.0.30",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-dribbble": "^2.0.0",
     "gatsby-source-filesystem": "^2.0.27",
     "gatsby-source-medium": "^2.0.6",

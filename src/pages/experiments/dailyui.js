@@ -48,7 +48,7 @@ const DailyUi = () => (
           shot.node.tags.includes("dailyui") &&
           <div className="Works__expCard" key={shot.node.id}>
             <h3>{shot.node.title}</h3>
-            <a className="Works__expImg" href={shot.node.url} target="_blank" rel="noopener">
+            <a className="Works__expImg" href={shot.node.url} target="_blank" rel="noopener noreferrer">
               <img src={shot.node.cover} />
             </a>
           </div>

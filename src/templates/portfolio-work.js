@@ -25,7 +25,7 @@ export default function Template({data}) {
           </div>
         </div>
         <div className="Works__hero__img">
-          <img src={work.frontmatter.image}></img>
+          <img alt={work.frontmatter.title} src={work.frontmatter.image}></img>
         </div>
       </div>
       <div className="Works__main" dangerouslySetInnerHTML={{ __html: work.html }} />

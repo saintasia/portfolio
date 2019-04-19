@@ -18,13 +18,13 @@ const IndexPage = ({data}) => (
             <Parallax y={[0, 50]} tagOuter="figure">
               <h1 className="Heading-blue">Hi, I’m Anastasia<span className="blue">.</span></h1>
               <p>I’m a digital creator based in Tokyo with over 4 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.</p>
-              <p>Currently a full-time designer at <a className="text-link" href="https://sider.review/" rel="noopener" target="_blank">Sider, Inc.</a> and a part-time BSc Computer Science student at <a className="text-link" href="https://london.ac.uk/courses/computer-science-user-experience" rel="noopener" target="_blank">the University of London</a>.</p>
+              <p>Currently a full-time designer at <a className="text-link" href="https://sider.review/" rel="noopener noreferrer" target="_blank">Sider, Inc.</a> and a part-time BSc Computer Science student at <a className="text-link" href="https://london.ac.uk/courses/computer-science-user-experience" rel="noopener noreferrer" target="_blank">the University of London</a>.</p>
               <ul className="Hero__social">
-                <li><a href="https://dribbble.com/saintasia" rel="noopener" target="_blank"><FaDribbble /></a></li>
-                <li><a href="https://codepen.io/saintasia/" rel="noopener" target="_blank"><FaCodepen /></a></li>
-                <li><a href="https://github.com/saintasia" rel="noopener" target="_blank"><FaGithub /></a></li>
-                <li><a href="https://medium.com/@saintasia" rel="noopener" target="_blank"><FaMediumM /></a></li>
-                <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener" target="_blank"><FaLinkedin /></a></li>
+                <li><a href="https://dribbble.com/saintasia" rel="noopener noreferrer" target="_blank"><FaDribbble /></a></li>
+                <li><a href="https://codepen.io/saintasia/" rel="noopener noreferrer" target="_blank"><FaCodepen /></a></li>
+                <li><a href="https://github.com/saintasia" rel="noopener noreferrer" target="_blank"><FaGithub /></a></li>
+                <li><a href="https://medium.com/@saintasia" rel="noopener noreferrer" target="_blank"><FaMediumM /></a></li>
+                <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a></li>
               </ul>
             </Parallax>
           </div>
@@ -69,7 +69,7 @@ const IndexPage = ({data}) => (
               <ul className="More__gridItem__list">
               {data.MediumQuery.edges.map(post => (
                 <li key={ post.node.id }>
-                  <a className="text-link" href={`https://medium.com/@saintasia/${post.node.uniqueSlug}`} target="_blank" rel="noopener">{post.node.title}</a>
+                  <a className="text-link" href={`https://medium.com/@saintasia/${post.node.uniqueSlug}`} target="_blank" rel="noopener noreferrer">{post.node.title}</a>
                 </li>
               ))}
               </ul>
@@ -80,7 +80,7 @@ const IndexPage = ({data}) => (
             </div>
             <div className="More__gridItem">
               <h2>Other</h2>
-              <a className="text-link" href="https://www.astemplates.com/website-template-details/773-burger-cafe" target="_blank" rel="noopener">Burger Landing Page Template (2017)</a>
+              <a className="text-link" href="https://www.astemplates.com/website-template-details/773-burger-cafe" target="_blank" rel="noopener noreferrer">Burger Landing Page Template (2017)</a>
             </div>
           </div>
         </Parallax>

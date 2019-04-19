@@ -28,11 +28,11 @@ const Footer = ({data}) => (
         </div>
         <div className="Footer__innerItem">
           <ul className="Hero__social">
-            <li><a href="https://dribbble.com/saintasia" rel="noopener" target="_blank"><FaDribbble /></a></li>
-            <li><a href="https://codepen.io/saintasia/" rel="noopener" target="_blank"><FaCodepen /></a></li>
-            <li><a href="https://github.com/saintasia" rel="noopener" target="_blank"><FaGithub /></a></li>
-            <li><a href="https://medium.com/@saintasia" rel="noopener" target="_blank"><FaMediumM /></a></li>
-            <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener" target="_blank"><FaLinkedin /></a></li>
+            <li><a href="https://dribbble.com/saintasia" rel="noopener noreferrer" target="_blank"><FaDribbble /></a></li>
+            <li><a href="https://codepen.io/saintasia/" rel="noopener noreferrer" target="_blank"><FaCodepen /></a></li>
+            <li><a href="https://github.com/saintasia" rel="noopener noreferrer" target="_blank"><FaGithub /></a></li>
+            <li><a href="https://medium.com/@saintasia" rel="noopener noreferrer" target="_blank"><FaMediumM /></a></li>
+            <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a></li>
           </ul>
         </div>
       </div>
