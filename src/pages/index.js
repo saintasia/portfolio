@@ -15,7 +15,7 @@ const IndexPage = ({data}) => (
       <section>
         <div className="Hero">
           <div className="Hero__text">
-            <Parallax y={[-25, 25]} tagOuter="figure">
+            <Parallax y={[0, 50]} tagOuter="figure">
               <h1 className="Heading-blue">Hi, I’m Anastasia<span className="blue">.</span></h1>
               <p>I’m a digital creator based in Tokyo with over 4 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.</p>
               <p>Currently a full-time designer at <a className="text-link" href="https://sider.review/" rel="noopener" target="_blank">Sider, Inc.</a> and a part-time BSc Computer Science student at <a className="text-link" href="https://london.ac.uk/courses/computer-science-user-experience" rel="noopener" target="_blank">the University of London</a>.</p>
