@@ -1,5 +1,4 @@
 import React from 'react';
-import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import { StaticQuery, graphql } from 'gatsby'
 import { Link } from "gatsby"
@@ -29,7 +28,7 @@ const DailyUi = () => (
 			`
 		}
 		render={data => (
-    <Layout>
+    <>
       <SEO title={`Anastasia K. Digital Creator | Experiments | Daily UI`}/>
       <div className="Works__hero">
         <div className="Works__hero__txt">
@@ -54,7 +53,7 @@ const DailyUi = () => (
           </div>
         ))}
       </div>
-    </Layout>
+    </>
   )}
 	/>
 )

@@ -8,8 +8,8 @@ h1, h2, h3 {
 }
 
 section {
-  @include LargeMarginBottom;
-  @include LargeMarginTop;
+  // @include LargeMarginBottom;
+  // @include LargeMarginTop;
 }
 
 main {
@@ -74,4 +74,8 @@ a {
   max-width: 38em;
   // margin: 0 auto;
   @include LargeMarginTop;
+}
+
+.wf-loading {
+  opacity: 0;
 }

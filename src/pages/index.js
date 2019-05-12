@@ -1,21 +1,20 @@
 import React from "react"
 import { Link } from "gatsby"
 import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin } from 'react-icons/fa';
-
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Image from "../components/imgs/portrait"
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Parallax } from 'react-scroll-parallax';
 
 const IndexPage = ({data}) => (
-  <Layout>
+  <>
     <SEO title="Anastasia K. Digital Creator | Home"/>
     <ParallaxProvider>
       <section>
         <div className="Hero">
           <div className="Hero__text">
-            <Parallax y={[0, 50]} tagOuter="figure">
+            <figure>
+            {/* <Parallax y={[0, 50]} tagOuter="figure"> */}
               <h1 className="Heading-blue">Hi, I’m Anastasia<span className="blue">.</span></h1>
               <p>I’m a digital creator based in Tokyo with over 4 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.</p>
               <p>Currently a full-time designer at <a className="text-link" href="https://sider.review/" rel="noopener noreferrer" target="_blank">Sider, Inc.</a> and a part-time BSc Computer Science student at <a className="text-link" href="https://london.ac.uk/courses/computer-science-user-experience" rel="noopener noreferrer" target="_blank">the University of London</a>.</p>
@@ -26,7 +25,8 @@ const IndexPage = ({data}) => (
                 <li><a href="https://medium.com/@saintasia" rel="noopener noreferrer" target="_blank"><FaMediumM /></a></li>
                 <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a></li>
               </ul>
-            </Parallax>
+              </figure>
+            {/* </Parallax> */}
           </div>
           <div className="Hero__img">
             {/* <img src={portrait} alt="portrait" className="Hero__img__portrait" /> */}
@@ -86,7 +86,7 @@ const IndexPage = ({data}) => (
         </Parallax>
       </section>
     </ParallaxProvider>
-  </Layout>
+  </>
 )
 
 export const pageQuery = graphql`
