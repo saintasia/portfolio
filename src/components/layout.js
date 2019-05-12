@@ -11,7 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Menu from "./menu"
 import Footer from "./footer"
 import "../css/main.scss"
-import Transition from "../components/transition";
+import Transition from "../components/Transition";
 
 const Layout = ({ children, location }) => (
   <StaticQuery
