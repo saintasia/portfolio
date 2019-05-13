@@ -8,6 +8,7 @@
     "gatsby": "^2.2.3",
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-catch-links": "^2.0.13",
+    "gatsby-plugin-layout": "^1.0.15",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
@@ -26,8 +27,8 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.5.0",
-    "react-reveal": "^1.2.2",
-    "react-scroll-parallax": "^2.1.2"
+    "react-scroll-parallax": "^2.1.2",
+    "react-transition-group": "^4.0.1"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
@@ -42,6 +43,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "prod": "npm run build && npm run serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {

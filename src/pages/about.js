@@ -1,10 +1,9 @@
 import React from 'react';
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 
 const AboutPage = () => (
-  <Layout>
+  <>
     <SEO title="Anastasia K. Digital Creator | About"/>
     <div className="Main__Container">
       <h1>About me</h1>
@@ -16,7 +15,7 @@ const AboutPage = () => (
       <p>When I'm not working, studying or doing passion projects and challenges, I enjoy <b>yoga, playing piano or discovering new cafes and restaurants around Tokyo</b>.</p>
       <p>If you want to reach out about anything, please don't be a stranger and <Link to="/contact" className="text-link">drop me a line</Link>!</p>
     </div>
-  </Layout>
+  </>
 )
 
 export default AboutPage;

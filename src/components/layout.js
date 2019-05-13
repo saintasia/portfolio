@@ -11,10 +11,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Menu from "./menu"
 import Footer from "./footer"
 import "../css/main.scss"
-import config from 'react-reveal/globals';
-import Fade from 'react-reveal/Fade';
-
-config({ ssrFadeout: true });
+import Transition from "../components/Transition";
 
 const Layout = ({ children, location }) => (
   <StaticQuery
@@ -31,9 +28,9 @@ const Layout = ({ children, location }) => (
       <>
         <Menu />
         <div className="Container">
-          <Fade>
-            <main>{children}</main>
-          </Fade>
+        <div className="Layout">
+         <Transition location={location}>{children}</Transition>
+        </div>
           <footer>
             <Footer />
             <div className="Footer__copy">

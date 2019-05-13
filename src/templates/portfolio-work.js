@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { FaArrowLeft } from 'react-icons/fa';
 
@@ -8,7 +7,7 @@ export default function Template({data}) {
   const work = data.markdownRemark;
 
   return (
-    <Layout>
+    <>
       <SEO title={`Anastasia K. Digital Creator | Works | ${work.frontmatter.title}`}/>
       <div className="Works__hero">
         <div className="Works__hero__txt">
@@ -30,7 +29,7 @@ export default function Template({data}) {
       </div>
       <div className="Works__main" dangerouslySetInnerHTML={{ __html: work.html }} />
       <div id="modal"></div>
-    </Layout>
+    </>
   )
 }
 

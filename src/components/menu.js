@@ -6,16 +6,13 @@ import Logo from "../images/logo.svg"
 class Menu extends React.Component {  
   constructor(props) {
     super(props);
-
     this.state = { showMenu: false }
-
-    this.handleClick.bind(this);
   }
 
   handleClick = () => {
-    this.setState({
-      showMenu: !this.state.showMenu
-    });
+    this.setState( prevState => ({
+      showMenu: !prevState.showMenu
+    }));
   }
 
   render() {
