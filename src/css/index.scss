@@ -6,6 +6,7 @@
   align-items: center;
   grid-gap: 2em;
   line-height: 2;
+  @include HugeMarginTop;
   @include MassiveMarginBottom;
   @include screen-size-s {
     grid-template-columns: 1fr;
