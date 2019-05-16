@@ -34,7 +34,7 @@ const Layout = ({ children, location }) => (
           <footer>
             <Footer />
             <div className="Footer__copy">
-              © {new Date().getFullYear()}, Designed and built by me, with ❤️and Gatsby
+              © {new Date().getFullYear()}, Designed and built by me, with ❤️ and Gatsby
             </div>
           </footer>
         </div>

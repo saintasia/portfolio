@@ -6,20 +6,31 @@ import Logo from "../images/logo.svg"
 class Menu extends React.Component {  
   constructor(props) {
     super(props);
-    this.state = { showMenu: false }
+    this.state = {
+      showMenu: false,
+      menuActiveClass: ''
+    }
   }
 
   handleClick = () => {
-    this.setState( prevState => ({
-      showMenu: !prevState.showMenu
-    }));
+    this.setState({
+      showMenu: !this.state.showMenu
+    },
+    () => {
+      this.state.showMenu
+        ? this.setState({
+            navBarActiveClass: 'Navi-open',
+          })
+        : this.setState({
+            navBarActiveClass: '',
+          })
+      }
+    );
   }
 
   render() {
     return (
-      <div className={`Navi ${this.state.showMenu
-          ? "Navi-open"
-          : null}`}>
+      <div className={`Navi ${this.state.navBarActiveClass}`}>
         <div className="Container">
           <ul className="Navi__list">
             <Link to="/" className="Navi__logo"><Logo /></Link>
@@ -33,13 +44,13 @@ class Menu extends React.Component {
                 <div className="Navi__listLink">Works <FaChevronDown className="small" /></div>
                 <ul className="Navi__listSub">
                   <li><Link to="/works/flora-u" className="">Flora-U Mobile App</Link></li>
-                  <li><Link to="/works/project-management" className="">Project Management Web App</Link></li>
+                  <li><Link to="/works/project-management">Project Management Web App</Link></li>
                 </ul>
               </li>
               <li className="Navi__listLinkDropdown">
                 <div className="Navi__listLink">Experiments <FaChevronDown className="small" /></div>
                 <ul className="Navi__listSub">
-                  <li><Link to="/experiments/dailyui" className="">The Daily UI Challenge</Link></li>
+                  <li><Link to="/experiments/dailyui">The Daily UI Challenge</Link></li>
                 </ul>
               </li>
               <li><Link to="/about" className="Navi__listLink">About</Link></li>
