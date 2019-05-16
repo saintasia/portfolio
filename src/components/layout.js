@@ -29,7 +29,7 @@ const Layout = ({ children, location }) => (
         <Menu />
         <div className="Container">
         <div className="Layout">
-         <Transition location={location}>{children}</Transition>
+          <Transition location={location}>{children}</Transition>
         </div>
           <footer>
             <Footer />

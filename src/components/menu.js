@@ -28,9 +28,15 @@ class Menu extends React.Component {
     );
   }
 
+  handleMenuClick = () => {
+    this.setState({
+      showMenu: false
+    })
+  }
+
   render() {
     return (
-      <div className={`Navi ${this.state.navBarActiveClass}`}>
+      <div className={`Navi ${this.state.navBarActiveClass}`} showMenu={false}>
         <div className="Container">
           <ul className="Navi__list">
             <Link to="/" className="Navi__logo"><Logo /></Link>
@@ -43,18 +49,18 @@ class Menu extends React.Component {
               <li className="Navi__listLinkDropdown">
                 <div className="Navi__listLink">Works <FaChevronDown className="small" /></div>
                 <ul className="Navi__listSub">
-                  <li><Link to="/works/flora-u" className="">Flora-U Mobile App</Link></li>
-                  <li><Link to="/works/project-management">Project Management Web App</Link></li>
+                  <li><Link to="/works/flora-u" onClick={this.handleClick}>Flora-U Mobile App</Link></li>
+                  <li><Link to="/works/project-management" onClick={this.handleClick}>Project Management Web App</Link></li>
                 </ul>
               </li>
               <li className="Navi__listLinkDropdown">
                 <div className="Navi__listLink">Experiments <FaChevronDown className="small" /></div>
                 <ul className="Navi__listSub">
-                  <li><Link to="/experiments/dailyui">The Daily UI Challenge</Link></li>
+                  <li><Link to="/experiments/dailyui" onClick={this.handleClick}>The Daily UI Challenge</Link></li>
                 </ul>
               </li>
-              <li><Link to="/about" className="Navi__listLink">About</Link></li>
-              <li><Link to="/contact" className="Navi__listLink">Contact</Link></li>
+              <li><Link to="/about" className="Navi__listLink" onClick={this.handleClick}>About</Link></li>
+              <li><Link to="/contact" className="Navi__listLink" onClick={this.handleClick}>Contact</Link></li>
             </div>
           </ul>
         </div>
