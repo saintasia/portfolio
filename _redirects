@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://saintasia.netlify.com/* https://anastasia-kas.com/:splat 301!
