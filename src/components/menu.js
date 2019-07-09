@@ -51,6 +51,7 @@ class Menu extends React.Component {
                 <ul className="Navi__listSub">
                   <li><Link to="/works/flora-u" onClick={this.handleClick}>Flora-U Mobile App</Link></li>
                   <li><Link to="/works/project-management" onClick={this.handleClick}>Project Management Web App</Link></li>
+                  <li><li><Link to="/works/sider-web" className="">Sider Website</Link></li></li>
                 </ul>
               </li>
               <li className="Navi__listLinkDropdown">

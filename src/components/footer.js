@@ -11,6 +11,7 @@ const Footer = ({data}) => (
           <ul className="Footer__list">
             <li><Link to="/works/flora-u" className="">Flora-U Mobile App</Link></li>
             <li><Link to="/works/project-management" className="">Project Management Web App</Link></li>
+            <li><Link to="/works/sider-web" className="">Sider Website</Link></li>
           </ul>
         </div>
         <div className="Footer__innerItem">
