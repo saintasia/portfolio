@@ -36,7 +36,7 @@ class Menu extends React.Component {
 
   render() {
     return (
-      <div className={`Navi ${this.state.navBarActiveClass}`} showMenu={false}>
+      <div className={`Navi ${this.state.navBarActiveClass}`}>
         <div className="Container">
           <ul className="Navi__list">
             <Link to="/" className="Navi__logo"><Logo /></Link>

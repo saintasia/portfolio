@@ -6,6 +6,8 @@ import Image from "../components/imgs/portrait"
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Parallax } from 'react-scroll-parallax';
 
+const width = window.innerWidth/100;
+
 const IndexPage = ({data}) => (
   <>
     <SEO title="Anastasia K. Digital Creator | Home"/>
@@ -14,7 +16,7 @@ const IndexPage = ({data}) => (
         <div className="Hero">
           <div className="Hero__text">
             <figure>
-            <Parallax y={[-25, 25]} tagOuter="figure">
+            <Parallax y={[-width, width]} tagOuter="figure">
               <h1 className="Heading-blue">Hi, I’m Anastasia<span className="blue">.</span></h1>
               <p>I’m a digital creator based in Tokyo with over 4 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.</p>
               <p>Currently a full-time designer at <a className="text-link" href="https://sider.review/" rel="noopener noreferrer" target="_blank">Sider, Inc.</a> and a part-time BSc Computer Science student at <a className="text-link" href="https://london.ac.uk/courses/computer-science-user-experience" rel="noopener noreferrer" target="_blank">the University of London</a>.</p>
@@ -39,7 +41,7 @@ const IndexPage = ({data}) => (
         <div className="Works__grid Container__overflow">
           <hr className="Works__separator"/>
           <div className="Works__gridItem Works__gridItemText">
-          <Parallax y={[-25, 25]} tagOuter="figure">
+          <Parallax y={[-width, width]} tagOuter="figure">
             <h2>Latest Works</h2>
             <p>Check out my latest projects, these include both hobby and side projects as well as long-term and ongoing ones.</p>
           </Parallax>
@@ -61,7 +63,7 @@ const IndexPage = ({data}) => (
         </div>
       </section>
       <section className="More">
-        <Parallax y={[-25, 25]} tagOuter="figure">
+        <Parallax y={[-width, width]} tagOuter="figure">
           <div className="More__grid">
             <div className="More__gridItem">
               <h2>Articles</h2>
