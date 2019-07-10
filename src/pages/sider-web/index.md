@@ -13,12 +13,10 @@ image: "/images/sider-web/main.png"
 [redesign]: /images/sider-web/redesign.png "Redesign"
 
 <br />
-<div class="Works__block Container-slim">
 
 ##Role and project
 <a href="https://sider.review/" target="_blank" rel="noopener">Sider</a> is a static code analysis SaaS for GitHub pull requests with the mission to simplify developers’ lives by automating code review. I have been a full-time **designer and front-end developer** working along with a team of 5 developers and other departments since December of 2017. My role included design, code, and maintenance of their main website, with at least 4 rounds of iteration based on customer feedback and analytics.
 
-</div>
 <br />
 
 ##Rebranding
