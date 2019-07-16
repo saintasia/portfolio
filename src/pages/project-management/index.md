@@ -6,13 +6,13 @@ role: "UI/UX design, Concept"
 del1: "UI/UX Design"
 del2: "Style Guide"
 del3: "Prototype"
-image: "/images/project-management-tool/main.png"
+image: "/images/project-management-tool/main.webp"
 ---
 
-[design-thinking]: /images/project-management-tool/design-thinking.png "Design thinking"
-[personas]: /images/project-management-tool/personas.png "Personas"
-[taskflows]: /images/project-management-tool/taskflows.png "Task flows"
-[deliverables]: /images/project-management-tool/final.png "Deliverables"
+[design-thinking]: /images/project-management-tool/design-thinking.webp "Design thinking"
+[personas]: /images/project-management-tool/personas.webp "Personas"
+[taskflows]: /images/project-management-tool/taskflows.webp "Task flows"
+[deliverables]: /images/project-management-tool/final.webp "Deliverables"
 
 <br />
 <div class="Works__block Container-slim">
@@ -66,12 +66,12 @@ I started the discovery phase of the project by going through the project constr
 </div><!-- two col layout end -->
 <!-- two col layout -->
 <div class="Works__grid__third Container__overflow">
-  <a href="" class="Works__modalImg" onClick="openImg('/images/project-management-tool/competitor-research.png')">
-    <img src="/images/project-management-tool/competitor-research.png" />
+  <a href="" class="Works__modalImg" onClick="openImg('/images/project-management-tool/competitor-research.webp')">
+    <img src="/images/project-management-tool/competitor-research.webp" />
     <p>Competitive research board</p>
   </a>
-  <a href="" class="Works__modalImg" onClick="openImg('/images/project-management-tool/moodboard.png')">
-    <img src="/images/project-management-tool/moodboard.png" />
+  <a href="" class="Works__modalImg" onClick="openImg('/images/project-management-tool/moodboard.webp')">
+    <img src="/images/project-management-tool/moodboard.webp" />
     <p>Moodboard</p>
   </a>
   <a href="" class="Works__modalImg" onClick="openImg('/images/project-management-tool/idea-exploration.jpg')">
@@ -120,8 +120,8 @@ _`As different tools use different naming conventions, the word ‘Messages’ c
 <br/>
 
 </div><!-- text end -->
-<a href="" class="Works__modalImg" onClick="openImg('/images/project-management-tool/wireframes.png')">
-  <img src="/images/project-management-tool/wireframes.png" />
+<a href="" class="Works__modalImg" onClick="openImg('/images/project-management-tool/wireframes.webp')">
+  <img src="/images/project-management-tool/wireframes.webp" />
   <p>Low-Fi wireframes and proto</p>
 </a>
 <a href="" class="Works__modalImg" onClick="openImg('/images/project-management-tool/tester.jpg')">

@@ -6,13 +6,13 @@ role: "UI/UX design, Concept"
 del1: "UI/UX Design"
 del2: "Style Guide"
 del3: "Prototype"
-image: "/images/flora-u/main.png"
+image: "/images/flora-u/main.webp"
 ---
 
-[design-thinking]: /images/flora-u/design-thinking.png "Design thinking"
-[personas]: /images/flora-u/personas.png "Personas"
-[taskflows]: /images/flora-u/taskflows.png "Task flows"
-[deliverables]: /images/flora-u/deliverables.png "Deliverables"
+[design-thinking]: /images/flora-u/design-thinking.webp "Design thinking"
+[personas]: /images/flora-u/personas.webp "Personas"
+[taskflows]: /images/flora-u/taskflows.webp "Task flows"
+[deliverables]: /images/flora-u/deliverables.webp "Deliverables"
 
 <br />
 <div class="Works__block Container-slim">
@@ -81,12 +81,12 @@ The discovery phase started with comprehensive competitive research and running 
 </div><!-- two col layout end -->
 <!-- two col layout -->
 <div class="Works__grid__third Container__overflow">
-  <a href="" class="Works__modalImg" onClick="openImg('/images/flora-u/usabilityhub.png')">
-    <img src="/images/flora-u/usabilityhub.png" />
+  <a href="" class="Works__modalImg" onClick="openImg('/images/flora-u/usabilityhub.webp')">
+    <img src="/images/flora-u/usabilityhub.webp" />
     <p>Usability Hub Survey</p>
   </a>
-  <a href="" class="Works__modalImg" onClick="openImg('/images/flora-u/moodboard.png')">
-    <img src="/images/flora-u/moodboard.png" />
+  <a href="" class="Works__modalImg" onClick="openImg('/images/flora-u/moodboard.webp')">
+    <img src="/images/flora-u/moodboard.webp" />
     <p>Moodboard</p>
   </a>
   <a href="" class="Works__modalImg" onClick="openImg('/images/flora-u/sketch.jpg')">
@@ -137,8 +137,8 @@ _`Move the credit card prompt to when the user is checking out instead, as well 
   <img src="/images/flora-u/initial-sketches.jpg" />
   <p>Initial Sketches</p>
 </a>
-<a href="" class="Works__modalImg" onClick="openImg('/images/flora-u/low-fidelity.png')">
-  <img src="/images/flora-u/low-fidelity.png" />
+<a href="" class="Works__modalImg" onClick="openImg('/images/flora-u/low-fidelity.webp')">
+  <img src="/images/flora-u/low-fidelity.webp" />
   <p>Low-Fi wireframes and proto</p>
 </a>
 </div><!-- two col layout end -->
