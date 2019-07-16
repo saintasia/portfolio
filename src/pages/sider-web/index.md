@@ -9,8 +9,11 @@ del3: "Front-end (slim, JavaScript, SCSS)"
 image: "/images/sider-web/main.png"
 ---
 
+[main]: /images/sider-web/main.png "Main"
 [rebranding]: /images/sider-web/rebranding.png "Branding"
 [redesign]: /images/sider-web/redesign.png "Redesign"
+[product]: /images/sider-web/product.png "Product Page"
+[other]: /images/sider-web/other.png "Other Pages"
 
 <br />
 
@@ -20,16 +23,19 @@ image: "/images/sider-web/main.png"
 <br />
 
 ##Rebranding
-In spring 2018, the decision was made to rename and rebrand the company, my role was to lead the rebranding process. This included participating in company and product renaming (SideCI to Sider), market research, new identity and logo creation.
-
 ![rebranding][rebranding]
+In spring 2018, the decision was made to rename and rebrand the company, my role was to lead the rebranding process. This included participating in company and product renaming (SideCI to Sider), market research, new identity and logo creation.
 
 <br />
 
 ##Redesign
+![main][main]
+
 I was in charge of several rounds of Sider’s website redesign, as the product was constantly changing and evolving, the tone and contents on the site itself had to reflect those changes. Based on user feedback collected by the members of our team, we could craft better content and, as a result, better design to support that content.
 
-![redesign][redesign]
+![product][product]
+
+![other][other]
 
 <br />
 
