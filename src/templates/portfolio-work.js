@@ -32,9 +32,7 @@ export default function Template({data}) {
           </Fade>
         </div>
       </div>
-      <Fade>
-        <div className="Works__main" dangerouslySetInnerHTML={{ __html: work.html }} />
-      </Fade>
+      <div className="Works__main" dangerouslySetInnerHTML={{ __html: work.html }} />
       <div id="modal"></div>
     </>
   )
