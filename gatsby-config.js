@@ -17,7 +17,7 @@ module.exports = {
       resolve: `gatsby-source-medium`,
       options: {
         username: `@saintasia`,
-        limit: 5,
+        limit: 7,
       },
     },
     {

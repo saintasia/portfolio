@@ -88,6 +88,7 @@
       text-decoration: none;
       color: $col-text;
       margin-left: 2em;
+      transition: all 150ms ease-in-out;
       &Dropdown {
         cursor: pointer;
         &:hover {
