@@ -10,7 +10,8 @@ const AboutPage = () => (
       <Fade bottom>
         <h1>About me</h1>
         <p>Hi, I'm Anastasia, a digital creator based in Tokyo with over 4 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.
-          Currently a full-time designer at <a className="text-link" href="https://sider.review/" rel="noopener noreferrer" target="_blank">Sider, Inc.</a></p>
+          My experience mostly lies in web apps and websites, but I also occasionaly work on mobile products.</p>
+        <p>Interested in working together? <Link className="text-link" to="/contact">Drop me a line!</Link></p>
         <p>Here's what I do:<br/>
         <b>Design</b> - UX reserach, Prototyping, Wireframing, UI design.<br/>
         <b>Development</b> - CSS/SASS, HTML, JavaScript, React, npm, GitHub.</p>

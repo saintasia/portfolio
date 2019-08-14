@@ -20,7 +20,8 @@ const IndexPage = ({data}) => {
                 <Fade bottom>
                   <h1 className="Heading-blue">Hi, I’m Anastasia<span className="blue">.</span></h1>
                   <p>I’m a digital creator based in Tokyo with over 4 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.</p>
-                  <p>Currently a full-time designer at <a className="text-link" href="https://sider.review/" rel="noopener noreferrer" target="_blank">Sider, Inc.</a> and a part-time BSc Computer Science student at <a className="text-link" href="https://london.ac.uk/courses/computer-science-user-experience" rel="noopener noreferrer" target="_blank">the University of London</a>.</p>
+                  <p>Currently available for opportunities on a freelance basis. Interested in working together? <Link className="text-link" to="/contact">Drop me a line</Link>.</p>
+                  <p><span class="available available-active">Availability: <b>10h</b>/week</span></p>
                   <ul className="Hero__social">
                     <li><a href="https://dribbble.com/saintasia" rel="noopener noreferrer" target="_blank"><FaDribbble /></a></li>
                     <li><a href="https://codepen.io/saintasia/" rel="noopener noreferrer" target="_blank"><FaCodepen /></a></li>
