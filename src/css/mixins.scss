@@ -49,6 +49,18 @@
   }
 }
 
+@mixin MeduimMarginBottom {
+  @media only screen and (min-width: $screen-width-m){
+    margin-bottom: 5rem;
+  }
+  @media only screen and (min-width: $screen-width-s){
+    margin-bottom: 3rem;
+  }
+  @media only screen and (max-width: $screen-width-s){
+    margin-bottom: 2rem;
+  }
+}
+
 @mixin LargeMarginBottom {
   @media only screen and (min-width: $screen-width-m){
     margin-bottom: 8rem;

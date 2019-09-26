@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Anastasia K. - Digital Designer & Creator`,
+    title: `Anastasia Kashkinova - Digital Designer & Creator`,
     description: `UI/UX designer and front-end devleoper.`,
     author: `@saintasia`,
   },
@@ -11,13 +11,6 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-medium`,
-      options: {
-        username: `@saintasia`,
-        limit: 7,
       },
     },
     {
@@ -71,6 +64,32 @@ module.exports = {
       resolve: `gatsby-plugin-layout`,
       options: {
         component: require.resolve(`./src/components/layout.js`),
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-148811507-1D",
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        // exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 200,
+        // Enables Google Optimize using your container Id
+        // optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+        // Enables Google Optimize Experiment ID
+        // experimentId: "YOUR_GOOGLE_EXPERIMENT_ID",
+        // Set Variation ID. 0 for original 1,2,3....
+        // variationId: "YOUR_GOOGLE_OPTIMIZE_VARIATION_ID",
+        // Any additional optional fields
+        // sampleRate: 5,
+        // siteSpeedSampleRate: 10,
+        // cookieDomain: "example.com",
       },
     },
     `gatsby-plugin-netlify`,

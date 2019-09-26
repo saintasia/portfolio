@@ -7,6 +7,7 @@ del1: "Prototypes"
 del2: "UI/UX design"
 del3: "Front-end (React, SCSS)"
 image: "/images/sider-ui/main.webp"
+featured: true
 ---
 
 [dashboard]: /images/sider-ui/dashboard-1.webp "Dashboard"

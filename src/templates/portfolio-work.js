@@ -9,11 +9,11 @@ export default function Template({data}) {
 
   return (
     <>
-      <SEO title={`Anastasia K. Digital Creator | Works | ${work.frontmatter.title}`}/>
+      <SEO title={`Anastasia Kashkinova UI designer & developer | Works | ${work.frontmatter.title}`}/>
       <div className="Works__hero">
         <div className="Works__hero__txt">
           <Fade bottom>
-            <Link className="back-link" to="/"><FaArrowLeft/> Back</Link>
+            <Link className="back-link" to="/works/"><FaArrowLeft/> Back to works</Link>
             <h1>{work.frontmatter.title}</h1>
             <div><b>Role:</b><p>{work.frontmatter.role}</p></div>
             <div><b>Timeline:</b><p>{work.frontmatter.date}</p></div>

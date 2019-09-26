@@ -1,6 +1,6 @@
 @import './mixins.scss';
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Playfair Display', serif;
   font-weight: 800;
   margin-bottom: 1em;
@@ -61,8 +61,28 @@ p {
   display: flex;
   align-items: center;
   margin-bottom: 2em;
+  transition: all 200ms ease-in-out;
   > svg {
     margin-right: 0.5em;
+  }
+  &:hover {
+    transform: translateX(-0.3em);
+  }
+}
+
+.forward-link {
+  text-decoration: none;
+  color: $col-blue;
+  font-weight: 600;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+  > svg {
+    margin-left: 0.5em;
+  }
+  &:hover {
+    transform: translateX(1em);
   }
 }
 
@@ -74,7 +94,7 @@ p {
   font-size: 0.6em;
 }
 
-.Main__Container {
+.Container--text {
   max-width: 38em;
   // margin: 0 auto;
   @include LargeMarginTop;
@@ -119,3 +139,10 @@ p {
   }
 }
 
+.mb-lg {
+  @include LargeMarginBottom;
+}
+
+.mb-md {
+  @include MeduimMarginBottom;
+}

@@ -7,7 +7,7 @@
   grid-gap: 2em;
   line-height: 2;
   @include HugeMarginTop;
-  @include MassiveMarginBottom;
+  @include LargeMarginBottom;
   @include screen-size-s {
     grid-template-columns: 1fr;
   }
@@ -17,6 +17,12 @@
     }
     &__portrait {
       width: 135%;
+    }
+  }
+
+  &__text {
+    @include screen-size-s {
+      margin-bottom: 7em;
     }
   }
   &__social {
@@ -50,24 +56,36 @@
   &__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10em;
+    grid-gap: 4em;
     @include screen-size-m {
       grid-template-columns: 1fr 1fr;
-      grid-gap: 8em;
+      grid-gap: 3em;
     }
     @include screen-size-s {
       grid-template-columns: 1fr;
-      grid-gap: 5em;
+      grid-gap: 2em;
     }
     &Item {
-      &:nth-child(odd) {
-        margin-top: -40%;
+      &:nth-child(even) {
+        margin-top: 10%;
         @include screen-size-s {
           margin-top: 0;
         }
       }
       &Text {
-        max-width: 20em;
+        margin-bottom: 4em;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        h2 {
+          margin-bottom: 0;
+        }
+      }
+      &Link {
+        margin-left: 2em;
+        color: $col-text;
+        opacity: 0.4;
+        margin-top: 0.8em;
       }
       a {
         text-decoration: none;
@@ -77,25 +95,46 @@
   &__card {
     height: 20em;
     background-size: cover;
-    filter: grayscale(50%);
+    background-position: center;
     display: flex;
-    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     padding: 1em;
     transition: all 300ms ease-out;
+    opacity: 0.9;
+    filter: grayscale(30%);
     &Text {
-      margin-top: auto;
-      transform: translateY(0);
+      transform: translateX(0);
       transition: all 300ms ease-out;
+      margin: 2em 0;
+      position: relative;
+      padding-left: 30px;
+      @include screen-size-s {
+        margin: 1em 0 2em;
+      }
+      h4 {
+        margin: 0.5em 0;
+        font-size: 1.3em;
+        &:before {
+          content: "";
+          width: 20px;
+          display: inline-block;
+          border-top: 2px solid $col-text;
+          opacity: 0.2;
+          position: absolute;
+          left: 0;
+          top: 0.7em;
+        }
+      }
       > * {
         margin: 0;
       }
-    }
-    &:hover {
-      filter: grayscale(20%);
-      .Works__cardText {
+      &:hover {
         transform: translateX(5px);
       }
+    }
+    &:hover {
+      filter: grayscale(0);
+      opacity: 1;
     }
   }
 }
@@ -103,20 +142,9 @@
 .More {
   @include MassiveMarginTop;
   @include MassiveMarginBottom;
-  &__grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    @include screen-size-m {
-      grid-template-columns: 1fr;
-      grid-gap: 2em;
-    }
-    &Item {
-      padding-right: 2em;
-      &__list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-    }
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 }

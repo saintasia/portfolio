@@ -3,13 +3,13 @@ import SEO from "../../components/seo"
 import { StaticQuery, graphql } from 'gatsby'
 import { Link } from "gatsby"
 import { FaArrowLeft } from 'react-icons/fa';
-import Image from "../../components/imgs/dailyui"
+import Image from "../../components/imgs/concept"
 
-const DailyUi = () => (
+const Concepts = () => (
   <StaticQuery
 		query={
 			graphql`
-				query projectUiQuery {
+				query projectConceptQuery {
 					allDribleProjects (
 						sort: {fields: [published], order: DESC}
 					) {
@@ -33,18 +33,18 @@ const DailyUi = () => (
       <div className="Works__hero">
         <div className="Works__hero__txt">
           <Link className="back-link" to="/experiments"><FaArrowLeft/> Back to experiments</Link>
-          <h1>The Daily UI Challenge</h1>
+          <h1>UI Concepts</h1>
           <div><b>Role:</b><p>UI design</p></div>
           <div><b>Timeline:</b><p>2019</p></div>
-          <div><b>Type:</b><p>Daily challenges to practice and experiment in the field of UI design</p></div>
+          <div><b>Type:</b><p>UI Concepts</p></div>
         </div>
         <div className="Works__hero__img">
-          <Image alt="Daily UI Cover" />
+          <Image alt="Concept UI Cover" />
         </div>
       </div>
       <div className="Works__exp">
         {data.allDribleProjects.edges.map(shot => (
-          shot.node.tags.includes("dailyui") &&
+          shot.node.tags.includes("concept") &&
           <div className="Works__expCard" key={shot.node.id}>
             <h3>{shot.node.title}</h3>
             <a className="Works__expImg" href={shot.node.url} target="_blank" rel="noopener noreferrer">
@@ -58,4 +58,4 @@ const DailyUi = () => (
 	/>
 )
 
-export default DailyUi;
+export default Concepts;

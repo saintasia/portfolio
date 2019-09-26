@@ -4,8 +4,8 @@ import Fade from 'react-reveal/Fade';
 
 const ContactPage = () => (
   <>
-    <SEO title="Anastasia K. Digital Creator | Contact"/>
-    <div className="Main__Container">
+    <SEO title="Anastasia Kashkinova UI designer & developer | Contact"/>
+    <div className="Container--text">
       <Fade bottom>
         <h1>Contact me</h1>
         <form className="Contact__Form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">

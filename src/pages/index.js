@@ -1,17 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin } from 'react-icons/fa';
+import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin, FaArrowRight } from 'react-icons/fa';
 import SEO from "../components/seo"
 import Image from "../components/imgs/portrait"
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Parallax } from 'react-scroll-parallax';
 import Fade from 'react-reveal/Fade';
+import MediumArticles from '../components/medium';
 
 const IndexPage = ({data}) => {
   const parallaxValue = [-20, 20];
+
   return (
     <>
-      <SEO title="Anastasia K. Digital Creator | Home"/>
+      <SEO title="Anastasia Kashkinova UI designer & developer | Home"/>
       <ParallaxProvider>
         <section>
           <div className="Hero">
@@ -21,7 +23,7 @@ const IndexPage = ({data}) => {
                   <h1 className="Heading-blue">Hi, I’m Anastasia<span className="blue">.</span></h1>
                   <p>I’m a digital creator based in Tokyo with over 4 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.</p>
                   <p>Currently available for opportunities on a freelance basis. Interested in working together? <Link className="text-link" to="/contact">Drop me a line</Link>.</p>
-                  <p><span class="available available-active">Availability: <b>10h</b>/week</span></p>
+                  <p><span className="available available-active">Availability: <b>10h</b>/week</span></p>
                   <ul className="Hero__social">
                     <li><a href="https://dribbble.com/saintasia" rel="noopener noreferrer" target="_blank"><FaDribbble /></a></li>
                     <li><a href="https://codepen.io/saintasia/" rel="noopener noreferrer" target="_blank"><FaCodepen /></a></li>
@@ -42,63 +44,87 @@ const IndexPage = ({data}) => {
           </div>
         </section>
         <section className="Works">
-          <div className="Works__grid Container__overflow">
-            <hr className="Works__separator"/>
-            <div className="Works__gridItem Works__gridItemText">
-              <Parallax y={parallaxValue}>
-                <Fade bottom>
-                  <h2>Latest Works</h2>
-                  <p>Check out my latest projects, these include both hobby and side projects as well as long-term and ongoing ones.</p>
-                </Fade>
-              </Parallax>
-            </div>
-            {data.WorksIndexQuery.edges.map((work => (
-              <div key={ work.node.id } className="Works__gridItem">
-                <Fade bottom>
-                  <Link to={ work.node.frontmatter.path }>
-                    <div className="Works__card" style={{
-                      backgroundImage: `linear-gradient(0deg, #FFFFFF 15.19%, rgba(255, 255, 255, 0) 66.52%), url(${work.node.frontmatter.image})`
-                    }}>
+          <div className="Works__gridItemText">
+              <Fade bottom>
+                <h2>Latest Works</h2>
+              </Fade>
+              <Fade bottom>
+                <Link className="forward-link Works__gridItemLink" to="/works">See all works <FaArrowRight/></Link>
+              </Fade>
+          </div>
+          <div className="Container__overflow">
+            <div className="Works__grid">
+              {data.WorksIndexQuery.edges.map((work => (
+                work.node.frontmatter.featured &&
+                <div key={ work.node.id } className="Works__gridItem">
+                  <Fade bottom>
+                    <Link to={ work.node.frontmatter.path }>
+                      <div className="Works__card" style={{
+                        backgroundImage: `url(${work.node.frontmatter.image})`
+                      }}>
+                      </div>
                       <div className="Works__cardText">
-                        <b>{ work.node.frontmatter.title }</b>
+                        <h4>{ work.node.frontmatter.title }</h4>
                         <p>{ work.node.frontmatter.role }</p>
                       </div>
-                    </div>
-                  </Link>
-                </Fade>
-              </div>
-            )
-            ))}
+                    </Link>
+                  </Fade>
+                </div>
+              )
+              ))}
+            </div>
+          </div>
+        </section>
+        <section className="Works">
+          <div className="Works__gridItemText">
+            <Fade bottom>
+              <h2>Experiments</h2>
+            </Fade>
+            <Fade bottom>
+              <Link className="forward-link Works__gridItemLink" to="/experiments">See all experiments <FaArrowRight/></Link>
+            </Fade>
+          </div>
+          <div className="Container__overflow">
+            <div className="Works__grid">
+                <div className="Works__gridItem">
+                  <Fade bottom>
+                    <Link to="/experiments/dailyui/">
+                      <div className="Works__card" style={{
+                        backgroundImage: `url('/images/dailyui.webp')`
+                      }}>
+                      </div>
+                      <div className="Works__cardText">
+                        <h4>The Daily UI challenge</h4>
+                        <p>UI design</p>
+                      </div>
+                    </Link>
+                  </Fade>
+                </div>
+                <div className="Works__gridItem">
+                  <Fade bottom>
+                    <Link to="/experiments/concepts/">
+                      <div className="Works__card" style={{
+                        backgroundImage: `url('/images/concept.webp')`
+                      }}>
+                      </div>
+                      <div className="Works__cardText">
+                        <h4>UI Concepts</h4>
+                        <p>UI design</p>
+                      </div>
+                    </Link>
+                  </Fade>
+                </div>
+            </div>
           </div>
         </section>
         <section className="More">
           <Parallax y={parallaxValue}>
-            <div className="More__grid">
-              <div className="More__gridItem">
-                <Fade bottom>
-                  <h2>Articles</h2>
-                  <ul className="More__gridItem__list">
-                  {data.MediumQuery.edges.map(post => (
-                    <li key={ post.node.id }>
-                      <a className="text-link" href={`https://medium.com/@saintasia/${post.node.uniqueSlug}`} target="_blank" rel="noopener noreferrer">{post.node.title}</a>
-                    </li>
-                  ))}
-                  </ul>
-                </Fade>
-              </div>
-              <div className="More__gridItem">
-                <Fade bottom>
-                  <h2>Experiments</h2>
-                  <Link to="experiments/dailyui" className="text-link">The Daily UI challenge</Link>
-                </Fade>
-              </div>
-              <div className="More__gridItem">
-                <Fade bottom>
-                  <h2>Other</h2>
-                  <a className="text-link" href="https://www.astemplates.com/website-template-details/773-burger-cafe" target="_blank" rel="noopener noreferrer">Burger Landing Page Template (2017)</a>
-                </Fade>
-              </div>
-            </div>
+            <Fade bottom>
+              <h2>Latest Articles</h2>
+              <ul className="react-reveal More__list">
+                <MediumArticles/>
+              </ul>
+            </Fade>
           </Parallax>
         </section>
       </ParallaxProvider>
@@ -121,23 +147,7 @@ export const pageQuery = graphql`
             del2
             del3
             image
-          }
-        }
-      }
-    }
-    MediumQuery: allMediumPost(sort: { fields: [createdAt], order: DESC }) {
-      edges {
-        node {
-          id
-          title
-          uniqueSlug
-          author {
-            name
-          }
-          virtuals {
-            previewImage {
-              imageId
-            }
+            featured
           }
         }
       }
