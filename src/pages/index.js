@@ -49,7 +49,7 @@ const IndexPage = ({data}) => {
                 <h2>Latest Works</h2>
               </Fade>
               <Fade bottom>
-                <Link className="forward-link Works__gridItemLink" to="/works">See all works <FaArrowRight/></Link>
+                <Link className="forward-link Works__gridItemLink" to="/works">See all <FaArrowRight/></Link>
               </Fade>
           </div>
           <div className="Container__overflow">
@@ -81,7 +81,7 @@ const IndexPage = ({data}) => {
               <h2>Experiments</h2>
             </Fade>
             <Fade bottom>
-              <Link className="forward-link Works__gridItemLink" to="/experiments">See all experiments <FaArrowRight/></Link>
+              <Link className="forward-link Works__gridItemLink" to="/experiments">See all <FaArrowRight/></Link>
             </Fade>
           </div>
           <div className="Container__overflow">
