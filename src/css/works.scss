@@ -72,6 +72,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
+    margin: 1em 0;
     @include screen-size-s {
       grid-template-columns: 1fr;
       grid-gap: 1em;
@@ -91,6 +92,7 @@
   }
   &__block {
     border: 1px solid $col-blue;
+    margin: 4em 0;
   }
   &__modalImg {
     position: relative;
