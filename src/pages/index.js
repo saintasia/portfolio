@@ -13,7 +13,7 @@ const IndexPage = ({data}) => {
 
   return (
     <>
-      <SEO title="Anastasia Kashkinova UI designer & developer | Home"/>
+      <SEO title="Anastasia Kashkinova - UI designer & developer | Home"/>
       <ParallaxProvider>
         <section>
           <div className="Hero">

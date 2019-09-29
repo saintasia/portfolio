@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 const AboutPage = () => (
   <>
-    <SEO title="Anastasia Kashkinova UI designer & developer | About"/>
+    <SEO title="Anastasia Kashkinova - UI designer & developer | About"/>
     <div className="Container--text">
       <Fade bottom>
         <h1>About me</h1>

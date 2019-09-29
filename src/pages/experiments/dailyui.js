@@ -29,7 +29,7 @@ const DailyUi = () => (
 		}
 		render={data => (
     <>
-      <SEO title={`Anastasia Kashkinova UI designer & developer | Experiments | Daily UI`}/>
+      <SEO title={`Anastasia Kashkinova - UI designer & developer | Experiments | Daily UI`}/>
       <div className="Works__hero">
         <div className="Works__hero__txt">
           <Link className="back-link" to="/experiments"><FaArrowLeft/> Back to experiments</Link>

@@ -9,7 +9,7 @@ export default function Template({data}) {
 
   return (
     <>
-      <SEO title={`Anastasia Kashkinova UI designer & developer | Works | ${work.frontmatter.title}`}/>
+      <SEO title={`Anastasia Kashkinova - UI designer & developer | Works | ${work.frontmatter.title}`}/>
       <div className="Works__hero">
         <div className="Works__hero__txt">
           <Fade bottom>
