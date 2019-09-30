@@ -3,11 +3,17 @@
 .Works {
   &__hero {
     @include LargeMarginTop;
+    @include MeduimMarginBottom;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    @include screen-size-m {
+      align-items: flex-end;
+    }
     @include screen-size-s {
       grid-template-columns: 1fr;
       grid-gap: 1em;
+      align-items: center;
     }
     &__txt {
       padding-right: 4em;
@@ -92,7 +98,7 @@
   }
   &__block {
     border: 1px solid $col-blue;
-    margin: 4em 0;
+    margin: 4em auto;
   }
   &__modalImg {
     position: relative;
