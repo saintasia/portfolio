@@ -20,6 +20,7 @@ exports.createPages = ({boundActionCreators, graphql}) => {
               del2
               del3
               image
+              featured
             }
           }
         }

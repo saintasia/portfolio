@@ -7,6 +7,7 @@ del1: "Design direction"
 del2: "Web design"
 del3: "Front-end (slim, JavaScript, SCSS)"
 image: "/images/sider-web/main.png"
+featured: true
 ---
 
 [main]: /images/sider-web/main.png "Main"
