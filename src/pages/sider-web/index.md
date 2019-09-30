@@ -6,15 +6,14 @@ role: "Web design, Front-end Development"
 del1: "Design direction"
 del2: "Web design"
 del3: "Front-end (slim, JavaScript, SCSS)"
-image: "/images/sider-web/main.webp"
-featured: true
+image: "/images/sider-web/main.png"
 ---
 
-[main]: /images/sider-web/main.webp "Main"
-[rebranding]: /images/sider-web/rebranding.webp "Branding"
-[redesign]: /images/sider-web/redesign.webp "Redesign"
-[product]: /images/sider-web/product.webp "Product Page"
-[other]: /images/sider-web/other.webp "Other Pages"
+[main]: /images/sider-web/main.png "Main"
+[rebranding]: /images/sider-web/rebranding.png "Branding"
+[redesign]: /images/sider-web/redesign.png "Redesign"
+[product]: /images/sider-web/product.png "Product Page"
+[other]: /images/sider-web/other.png "Other Pages"
 
 <br />
 

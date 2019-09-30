@@ -14,7 +14,7 @@ const ExperimentPage = () => (
             <Fade bottom>
               <Link to="/experiments/dailyui/">
                 <div className="Works__card" style={{
-                  backgroundImage: `url('/images/dailyui.webp')`
+                  backgroundImage: `url('/images/dailyui.png')`
                 }}>
                 </div>
                 <div className="Works__cardText">
@@ -28,7 +28,7 @@ const ExperimentPage = () => (
             <Fade bottom>
               <Link to="/experiments/concepts/">
                 <div className="Works__card" style={{
-                  backgroundImage: `url('/images/concept.webp')`
+                  backgroundImage: `url('/images/concept.png')`
                 }}>
                 </div>
                 <div className="Works__cardText">

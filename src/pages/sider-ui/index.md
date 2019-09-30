@@ -6,15 +6,14 @@ role: "UI/UX design, Front-end development"
 del1: "Prototypes"
 del2: "UI/UX design"
 del3: "Front-end (React, SCSS)"
-image: "/images/sider-ui/main.webp"
-featured: true
+image: "/images/sider-ui/main.png"
 ---
 
-[dashboard]: /images/sider-ui/dashboard-1.webp "Dashboard"
+[dashboard]: /images/sider-ui/dashboard-1.png "Dashboard"
 [filters-sketch]: /images/sider-ui/filters-sketch.jpg "Filters sketch"
-[filters]: /images/sider-ui/filters.webp "Filters"
-[ui-1]: /images/sider-ui/ui-1.webp "UI Pt 1"
-[ui-2]: /images/sider-ui/ui-2.webp "UI Pt 2"
+[filters]: /images/sider-ui/filters.png "Filters"
+[ui-1]: /images/sider-ui/ui-1.png "UI Pt 1"
+[ui-2]: /images/sider-ui/ui-2.png "UI Pt 2"
 
 <br />
 
