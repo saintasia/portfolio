@@ -61,4 +61,4 @@ Testing the functionality with the real users and seeing them interact with the 
 ![ui-1][ui-1]
 ![ui-2][ui-2]
 
-Over a year and a half, I completely redesigned the old system, designing over 60 pages and their states, working prototypes as well as runnign some usability testing for both existing features and those in the making.
+Over a year and a half, I completely redesigned the old system, designing over 60 pages and their states, working prototypes as well as running some usability testing for both existing features and those in the making.

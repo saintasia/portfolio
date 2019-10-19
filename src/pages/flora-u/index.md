@@ -19,7 +19,7 @@ image: "/images/flora-u/main.png"
 
 _**The client** is a mobile-first startup that lets anyone have flowers, and bouquets delivered to anyone within an hour. By creating a seamless in-app experience similar to services like Postmates and Uber, they hope to continue to scale and expand by the end of the year._
 
-_**The users** are consumers and local florists. Consumers are a wide range of people from 20s to 50s who are comfortable ordering products online, they will on average use the app 1-3 times a year. Delivery process must be transparent to ease their anxieties._
+_**The users** are consumers and local florists. Consumers are a wide range of people from 20s to 50s who are comfortable ordering products online, they will on average use the app 1-3 times a year. The delivery process must be transparent to ease their anxieties._
 </div>
 <br />
 <div class="Container-slim">

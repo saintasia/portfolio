@@ -20,8 +20,10 @@ const IndexPage = ({data}) => {
             <div className="Hero__text">
               <Parallax y={parallaxValue}>
                 <Fade bottom>
-                  <h1 className="Heading-blue">Hi, I’m Anastasia<span className="blue">.</span></h1>
-                  <p>I’m a digital creator based in Tokyo with over 4 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.</p>
+                  <h1 className="Heading-blue">
+                    UI designer & developer<span className="blue">.</span>
+                  </h1>
+                  <p>Hi, I’m Anastasia - a digital creator based in Tokyo with over 4 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.</p>
                   <p>Currently available for opportunities on a freelance basis. Interested in working together? <Link className="text-link" to="/contact">Drop me a line</Link>.</p>
                   <p><span className="available available-active">Availability: <b>10h</b>/week</span></p>
                   <ul className="Hero__social">

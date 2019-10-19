@@ -19,7 +19,7 @@ image: "/images/project-management-tool/main.png"
 
 _**The client** is a B2B company  providing enterprise-level software. They’re looking to create a free project management tool for the web which will help them attract start-ups and small businesses, who in turn can be potentially converted into their legacy product customers._
 
-_**The users** are start-up owners and employees ages 20-40, who are struggling with overly complicated task creation processes many PM tools are guilty of. They want transparent intuitive experience for tracking projects and tasks._
+_**The users** are start-up owners and employees ages 20-40, who are struggling with overly complicated task creation processes many PM tools are guilty of. They want a transparent intuitive experience for tracking projects and tasks._
 
 </div>
 <br />
