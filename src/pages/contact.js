@@ -12,11 +12,11 @@ const ContactPage = () => (
           <input type="hidden" name="form-name" value="contact" />
           <div className="Contact__Form__Field">
             <input type="email" name="email" size="50" required />
-            <label for="email">Email:</label>
+            <label htmlFor="email">Email:</label>
           </div>
           <div className="Contact__Form__Field">
             <textarea name="message" rows="1" cols="49" required></textarea>
-            <label for="message">Message:</label>
+            <label htmlFor="message">Message:</label>
           </div>
           <p>
             <button className="Contact__Form__Button" type="submit">Send</button>

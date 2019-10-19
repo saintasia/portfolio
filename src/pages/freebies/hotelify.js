@@ -19,7 +19,7 @@ const Hotelify = () => (
         <Image alt="Concept UI Cover" />
       </div>
     </div>
-    <div class="Container-slim">
+    <div className="Container-slim">
       <p>Free Hotel booking app UI kit for Figma (iOS). 14 screens, reusable components, FontAwsome and Google Fonts support.<br/>
       <br/>
         <a className="text-link" href="https://dribbble.com/shots/7266365-Hotelify-Free-iOS-mobile-kit-for-Figma" rel="noopener noreferrer" target="_blank">Download here</a>
