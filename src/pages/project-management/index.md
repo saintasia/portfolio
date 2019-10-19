@@ -7,6 +7,7 @@ del1: "UI/UX Design"
 del2: "Style Guide"
 del3: "Prototype"
 image: "/images/project-management-tool/main.png"
+thumb: "/images/project-management-tool/thumb.png"
 ---
 
 [design-thinking]: /images/project-management-tool/design-thinking.png "Design thinking"

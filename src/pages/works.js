@@ -15,7 +15,7 @@ const WorkPage = ({data}) => (
             <Fade bottom>
               <Link to={ work.node.frontmatter.path }>
                 <div className="Works__card" style={{
-                  backgroundImage: `url(${work.node.frontmatter.image})`
+                  backgroundImage: `url(${work.node.frontmatter.thumb})`
                 }}>
                 </div>
                 <div className="Works__cardText">
@@ -41,13 +41,8 @@ export const pageQuery = graphql`
           frontmatter {
             path
             title
-            date
             role
-            del1
-            del2
-            del3
-            image
-            featured
+            thumb
           }
         }
       }
