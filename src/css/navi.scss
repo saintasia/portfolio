@@ -90,6 +90,10 @@
       color: $col-text;
       margin-left: 2em;
       transition: all 150ms ease-in-out;
+      opacity: 0.85;
+      &:hover {
+        opacity: 1;
+      }
       &Dropdown {
         cursor: pointer;
         &:hover {

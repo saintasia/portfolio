@@ -9,7 +9,7 @@ const Footer = ({data}) => (
       <div className="Footer__inner">
         <div className="Footer__innerItem">
           <Fade bottom>
-          <Link to="/works"><h3 className="Footer__title">Works:</h3></Link>
+            <Link to="/works"><h3 className="Footer__title">Works:</h3></Link>
             <ul className="Footer__list">
               <li><Link to="/works/flora-u" className="">Flora-U Mobile App</Link></li>
               <li><Link to="/works/project-management" className="">Project Management Web App</Link></li>
@@ -20,14 +20,22 @@ const Footer = ({data}) => (
         </div>
         <div className="Footer__innerItem">
           <Fade bottom>
-          <Link to="/experiments"><h3 className="Footer__title">Experiments:</h3></Link>
+            <Link to="/experiments"><h3 className="Footer__title">Experiments:</h3></Link>
             <ul className="Footer__list">
               <li><Link to="/experiments/dailyui">The Daily UI Challenge</Link></li>
               <li><Link to="/experiments/concepts">UI Concepts</Link></li>
             </ul>
           </Fade>
         </div>
-        <div className="Footer__innerItem Footer__innerItem-hidden"></div>
+        <div className="Footer__innerItem">
+          <Fade bottom>
+            <Link to="/freebies"><h3 className="Footer__title">Freebies:</h3></Link>
+            <ul className="Footer__list">
+              <li><Link to="/freebies/hotelify">Hotelify iOS UI Kit</Link></li>
+              <li><Link to="/freebies/ecstasy">Ecstasy Fitbit Watch Face</Link></li>
+            </ul>
+          </Fade>
+        </div>
         <div className="Footer__innerItem">
           <Fade bottom>
             <Link to="/about" className=""><h3 className="Footer__title">About</h3></Link>

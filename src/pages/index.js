@@ -77,6 +77,8 @@ const IndexPage = ({data}) => {
             </div>
           </div>
         </section>
+
+        {/* experiments */}
         <section className="Works">
           <div className="Works__gridItemText">
             <Fade bottom>
@@ -119,6 +121,51 @@ const IndexPage = ({data}) => {
             </div>
           </div>
         </section>
+
+        {/* Freebies */}
+        <section className="Works">
+          <div className="Works__gridItemText">
+            <Fade bottom>
+              <h2>Freebies</h2>
+            </Fade>
+            <Fade bottom>
+              <Link className="forward-link Works__gridItemLink" to="/freebies">See all <FaArrowRight/></Link>
+            </Fade>
+          </div>
+          <div className="Container__overflow">
+            <div className="Works__grid">
+              <div className="Works__gridItem">
+                <Fade bottom>
+                  <Link to="/freebies/hotelify/">
+                    <div className="Works__card" style={{
+                      backgroundImage: `url('/images/hotelify/thumb.jpg')`
+                    }}>
+                    </div>
+                    <div className="Works__cardText">
+                      <h4>Hotelify iOS UI Kit</h4>
+                      <p>UI design</p>
+                    </div>
+                  </Link>
+                </Fade>
+              </div>
+              <div className="Works__gridItem">
+                <Fade bottom>
+                  <Link to="/freebies/ecstasy/">
+                    <div className="Works__card" style={{
+                      backgroundImage: `url('/images/ecstasy/thumb.png')`
+                    }}>
+                    </div>
+                    <div className="Works__cardText">
+                      <h4>Ecstasy Fitbit Watch Face</h4>
+                      <p>UI design, Development</p>
+                    </div>
+                  </Link>
+                </Fade>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="More">
           <Parallax y={parallaxValue}>
             <Fade bottom>
