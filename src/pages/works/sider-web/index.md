@@ -35,7 +35,7 @@ The new branding was to be different from the existing competitors, with a stron
 ##Redesign
 ![main][main]
 
-I was also in charge of several rounds of Sider’s website redesign, as the product was constantly changing and evolving, the tone and contents on the site itself had to reflect those changes. Based on user feedback collected by the members of our team, we could craft better content and, as a result, better design to support that content.
+I was also in charge of several rounds of Sider’s website redesign, as the product was constantly changing and evolving, the tone and contents on the site itself had to reflect those changes. Based on user feedback collected by the members of our team, we could craft better content and, as a result, I could update the design to support that content.
 
 ![product][product]
 
