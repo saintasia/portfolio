@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Fade from 'react-reveal/Fade';
-import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin } from 'react-icons/fa';
+import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin, FaDev } from 'react-icons/fa';
 
 const Footer = ({data}) => (
   <div className="Footer">
@@ -54,6 +54,7 @@ const Footer = ({data}) => (
               <li><a href="https://github.com/saintasia" rel="noopener noreferrer" target="_blank"><FaGithub /></a></li>
               <li><a href="https://medium.com/@saintasia" rel="noopener noreferrer" target="_blank"><FaMediumM /></a></li>
               <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a></li>
+              <li><a href="https://dev.to/saintasia" rel="noopener noreferrer" target="_blank"><FaDev /></a></li>
             </Fade>
           </ul>
         </div>

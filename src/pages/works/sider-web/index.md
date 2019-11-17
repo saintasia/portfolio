@@ -12,6 +12,7 @@ featured: true
 ---
 
 [main]: /images/sider-web/main.png "Main"
+[result]: /images/sider-web/result.png "Result"
 [rebranding]: /images/sider-web/rebranding.png "Branding"
 [redesign]: /images/sider-web/redesign.png "Redesign"
 [product]: /images/sider-web/product.png "Product Page"
@@ -33,7 +34,7 @@ The new branding was to be different from the existing competitors, with a stron
 <br />
 
 ##Redesign
-![main][main]
+![result][result]
 
 I was also in charge of several rounds of Sider’s website redesign, as the product was constantly changing and evolving, the tone and contents on the site itself had to reflect those changes. Based on user feedback collected by the members of our team, we could craft better content and, as a result, I could update the design to support that content.
 

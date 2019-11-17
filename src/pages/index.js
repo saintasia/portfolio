@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin, FaArrowRight } from 'react-icons/fa';
+import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin, FaArrowRight, FaDev } from 'react-icons/fa';
 import SEO from "../components/seo"
 import Image from "../components/imgs/portrait"
 import { ParallaxProvider } from 'react-scroll-parallax';
@@ -32,6 +32,7 @@ const IndexPage = ({data}) => {
                     <li><a href="https://github.com/saintasia" rel="noopener noreferrer" target="_blank"><FaGithub /></a></li>
                     <li><a href="https://medium.com/@saintasia" rel="noopener noreferrer" target="_blank"><FaMediumM /></a></li>
                     <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a></li>
+                    <li><a href="https://dev.to/saintasia" rel="noopener noreferrer" target="_blank"><FaDev /></a></li>
                   </ul>
                 </Fade>
               </Parallax>
@@ -169,7 +170,7 @@ const IndexPage = ({data}) => {
         <section className="More">
           <Parallax y={parallaxValue}>
             <Fade bottom>
-              <h2>Latest Articles</h2>
+              <h2>Latest from Medium</h2>
               <ul className="react-reveal More__list">
                 <MediumArticles/>
               </ul>
