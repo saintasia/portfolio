@@ -1,7 +1,7 @@
 import React from "react"
 // import SEO from "../components/seo"
 import Fade from 'react-reveal/Fade';
-import { Link } from "gatsby"
+import Thumbnail from '../components/thumbnail';
 
 const ExperimentPage = () => (
   <section>
@@ -10,34 +10,22 @@ const ExperimentPage = () => (
     </Fade>
     <div className="Container__overflow">
       <div className="Works__grid">
-          <div className="Works__gridItem">
-            <Fade bottom>
-              <Link to="/experiments/dailyui/">
-                <div className="Works__card" style={{
-                  backgroundImage: `url('/images/dailyui.png')`
-                }}>
-                </div>
-                <div className="Works__cardText">
-                  <h4>The Daily UI challenge</h4>
-                  <p>UI design</p>
-                </div>
-              </Link>
-            </Fade>
-          </div>
-          <div className="Works__gridItem">
-            <Fade bottom>
-              <Link to="/experiments/concepts/">
-                <div className="Works__card" style={{
-                  backgroundImage: `url('/images/concept.png')`
-                }}>
-                </div>
-                <div className="Works__cardText">
-                  <h4>UI Concepts</h4>
-                  <p>UI design</p>
-                </div>
-              </Link>
-            </Fade>
-          </div>
+        <div className="Works__gridItem">
+          <Thumbnail
+            link="/experiments/dailyui/"
+            img="/images/dailyui.png"
+            title="The Daily UI challenge"
+            role="UI design"
+          />
+        </div>
+        <div className="Works__gridItem">
+          <Thumbnail
+            link="/experiments/concepts/"
+            img="/images/concept.png"
+            title="UI Concepts"
+            role="UI design"
+          />
+        </div>
       </div>
     </div>
   </section>

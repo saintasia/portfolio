@@ -7,6 +7,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import { Parallax } from 'react-scroll-parallax';
 import Fade from 'react-reveal/Fade';
 import MediumArticles from '../components/medium';
+import Thumbnail from '../components/thumbnail';
 
 const IndexPage = ({data}) => {
   const parallaxValue = [-20, 20];
@@ -24,8 +25,9 @@ const IndexPage = ({data}) => {
                     UI designer & developer<span className="blue">.</span>
                   </h1>
                   <p>Hi, I’m Anastasia - a digital creator based in Tokyo with over 4 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.</p>
-                  <p>Currently available for opportunities on a freelance basis. Interested in working together? <Link className="text-link" to="/contact">Drop me a line</Link>.</p>
-                  <p><span className="available available-active">Availability: <b>10h</b>/week</span></p>
+                  <p>Feel free to connect with me via my social profiles or to <Link className="text-link" to="/contact">drop me a line</Link>!</p>
+                  {/* <p>Currently available for opportunities on a freelance basis. Interested in working together? <Link className="text-link" to="/contact">Drop me a line</Link>.</p> */}
+                  {/* <p><span className="available available-active">Availability: <b>10h</b>/week</span></p> */}
                   <ul className="Hero__social">
                     <li><a href="https://dribbble.com/saintasia" rel="noopener noreferrer" target="_blank"><FaDribbble /></a></li>
                     <li><a href="https://codepen.io/saintasia/" rel="noopener noreferrer" target="_blank"><FaCodepen /></a></li>
@@ -60,18 +62,12 @@ const IndexPage = ({data}) => {
               {data.WorksIndexQuery.edges.map((work => (
                 work.node.frontmatter.featured &&
                 <div key={ work.node.id } className="Works__gridItem">
-                  <Fade bottom>
-                    <Link to={ work.node.frontmatter.path }>
-                      <div className="Works__card" style={{
-                        backgroundImage: `url(${work.node.frontmatter.thumb})`
-                      }}>
-                      </div>
-                      <div className="Works__cardText">
-                        <h4>{ work.node.frontmatter.title }</h4>
-                        <p>{ work.node.frontmatter.role }</p>
-                      </div>
-                    </Link>
-                  </Fade>
+                  <Thumbnail
+                    link={ work.node.frontmatter.path }
+                    img={work.node.frontmatter.thumb}
+                    title={ work.node.frontmatter.title }
+                    role={ work.node.frontmatter.role }
+                  />
                 </div>
               )
               ))}
@@ -92,32 +88,20 @@ const IndexPage = ({data}) => {
           <div className="Container__overflow">
             <div className="Works__grid">
                 <div className="Works__gridItem">
-                  <Fade bottom>
-                    <Link to="/experiments/dailyui/">
-                      <div className="Works__card" style={{
-                        backgroundImage: `url('/images/dailyui.png')`
-                      }}>
-                      </div>
-                      <div className="Works__cardText">
-                        <h4>The Daily UI challenge</h4>
-                        <p>UI design</p>
-                      </div>
-                    </Link>
-                  </Fade>
+                  <Thumbnail
+                    link="/experiments/dailyui/"
+                    img="/images/dailyui.png"
+                    title="The Daily UI challenge"
+                    role="UI design"
+                  />
                 </div>
                 <div className="Works__gridItem">
-                  <Fade bottom>
-                    <Link to="/experiments/concepts/">
-                      <div className="Works__card" style={{
-                        backgroundImage: `url('/images/concept.png')`
-                      }}>
-                      </div>
-                      <div className="Works__cardText">
-                        <h4>UI Concepts</h4>
-                        <p>UI design</p>
-                      </div>
-                    </Link>
-                  </Fade>
+                  <Thumbnail
+                    link="/experiments/concepts/"
+                    img="/images/concept.png"
+                    title="UI Concepts"
+                    role="UI design"
+                  />
                 </div>
             </div>
           </div>
@@ -136,32 +120,20 @@ const IndexPage = ({data}) => {
           <div className="Container__overflow">
             <div className="Works__grid">
               <div className="Works__gridItem">
-                <Fade bottom>
-                  <Link to="/freebies/hotelify/">
-                    <div className="Works__card" style={{
-                      backgroundImage: `url('/images/hotelify/thumb.jpg')`
-                    }}>
-                    </div>
-                    <div className="Works__cardText">
-                      <h4>Hotelify iOS UI Kit</h4>
-                      <p>UI design</p>
-                    </div>
-                  </Link>
-                </Fade>
+                <Thumbnail
+                  link="/freebies/hotelify/"
+                  img="/images/hotelify/thumb.jpg"
+                  title="Hotelify iOS UI Kit"
+                  role="UI design"
+                />
               </div>
               <div className="Works__gridItem">
-                <Fade bottom>
-                  <Link to="/freebies/ecstasy/">
-                    <div className="Works__card" style={{
-                      backgroundImage: `url('/images/ecstasy/thumb.png')`
-                    }}>
-                    </div>
-                    <div className="Works__cardText">
-                      <h4>Ecstasy Fitbit Watch Face</h4>
-                      <p>UI design, Development</p>
-                    </div>
-                  </Link>
-                </Fade>
+                <Thumbnail
+                  link="/freebies/ecstasy/"
+                  img="/images/ecstasy/thumb.png"
+                  title="Ecstasy Fitbit Watch Face"
+                  role="UI design, Development"
+                />
               </div>
             </div>
           </div>

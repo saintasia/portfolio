@@ -1,7 +1,7 @@
 import React from "react"
 // import SEO from "../components/seo"
-import Fade from 'react-reveal/Fade';
-import { Link } from "gatsby"
+import Fade from 'react-reveal/Fade'
+import Thumbnail from '../components/thumbnail'
 
 const WorkPage = ({data}) => (
   <section>
@@ -12,18 +12,12 @@ const WorkPage = ({data}) => (
       <div className="Works__grid">
         {data.WorksIndexQuery.edges.map((work => (
           <div key={ work.node.id } className="Works__gridItem">
-            <Fade bottom>
-              <Link to={ work.node.frontmatter.path }>
-                <div className="Works__card" style={{
-                  backgroundImage: `url(${work.node.frontmatter.thumb})`
-                }}>
-                </div>
-                <div className="Works__cardText">
-                  <h4>{ work.node.frontmatter.title }</h4>
-                  <p>{ work.node.frontmatter.role }</p>
-                </div>
-              </Link>
-            </Fade>
+            <Thumbnail
+              link={ work.node.frontmatter.path }
+              img={ work.node.frontmatter.thumb }
+              title={ work.node.frontmatter.title }
+              role={ work.node.frontmatter.role }
+            />
           </div>
         )
         ))}
