@@ -24,7 +24,7 @@ const IndexPage = ({data}) => {
                   <h1 className="Heading-blue">
                     UI designer & developer<span className="blue">.</span>
                   </h1>
-                  <p>Hi, I’m Anastasia - a digital creator based in Tokyo with over 4 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.</p>
+                  <p>Hi, I’m Anastasia - a digital creator based in Melbourne with over 5 years of experience in the field. I specialize in <b>UI/UX design</b> and <b>front-end development</b>.</p>
                   <p>Feel free to connect with me via my social profiles or to <Link className="text-link" to="/contact">drop me a line</Link>!</p>
                   {/* <p>Currently available for opportunities on a freelance basis. Interested in working together? <Link className="text-link" to="/contact">Drop me a line</Link>.</p> */}
                   {/* <p><span className="available available-active">Availability: <b>10h</b>/week</span></p> */}
