@@ -1,6 +1,7 @@
 ---
 path: "/works/sider-web"
 date: "2017-"
+order: 4
 title: "Sider Website"
 role: "Web design, Front-end Development"
 del1: "Design direction"
@@ -8,7 +9,7 @@ del2: "Web design"
 del3: "Front-end (slim, JavaScript, SCSS)"
 image: "/images/sider-web/main.png"
 thumb: "/images/sider-web/thumb.png"
-featured: true
+featured: false
 ---
 
 [main]: /images/sider-web/main.png "Main"

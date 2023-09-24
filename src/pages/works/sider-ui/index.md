@@ -1,6 +1,7 @@
 ---
 path: "/works/sider-ui"
 date: "2017-"
+order: 3
 title: "Sider Web App"
 role: "UI/UX design, Front-end development"
 del1: "Prototypes"
@@ -8,7 +9,7 @@ del2: "UI/UX design"
 del3: "Front-end (React, SCSS)"
 image: "/images/sider-ui/main.png"
 thumb: "/images/sider-ui/thumb.png"
-featured: true
+featured: false
 ---
 
 [dashboard]: /images/sider-ui/dashboard-1.png "Dashboard"

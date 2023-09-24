@@ -1,6 +1,7 @@
 ---
 path: "/works/flora-u"
 date: "2019 March (3 weeks)"
+order: 6
 title: "Flora-U Mobile App"
 role: "UI/UX design, Concept"
 del1: "UI/UX Design"
