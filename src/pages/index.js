@@ -29,12 +29,12 @@ const IndexPage = ({data}) => {
                   {/* <p>Currently available for opportunities on a freelance basis. Interested in working together? <Link className="text-link" to="/contact">Drop me a line</Link>.</p> */}
                   {/* <p><span className="available available-active">Availability: <b>10h</b>/week</span></p> */}
                   <ul className="Hero__social">
-                    <li><a href="https://dribbble.com/saintasia" rel="noopener noreferrer" target="_blank"><FaDribbble /></a></li>
-                    <li><a href="https://codepen.io/saintasia/" rel="noopener noreferrer" target="_blank"><FaCodepen /></a></li>
-                    <li><a href="https://github.com/saintasia" rel="noopener noreferrer" target="_blank"><FaGithub /></a></li>
-                    <li><a href="https://medium.com/@saintasia" rel="noopener noreferrer" target="_blank"><FaMediumM /></a></li>
-                    <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a></li>
-                    <li><a href="https://dev.to/saintasia" rel="noopener noreferrer" target="_blank"><FaDev /></a></li>
+                    <li><a href="https://dribbble.com/saintasia" rel="noopener noreferrer" target="_blank" aria-label="dribble"><FaDribbble /></a></li>
+                    <li><a href="https://codepen.io/saintasia/" rel="noopener noreferrer" target="_blank"  aria-label="codepen"><FaCodepen /></a></li>
+                    <li><a href="https://github.com/saintasia" rel="noopener noreferrer" target="_blank"  aria-label="github"><FaGithub /></a></li>
+                    <li><a href="https://medium.com/@saintasia" rel="noopener noreferrer" target="_blank"  aria-label="medium"><FaMediumM /></a></li>
+                    <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener noreferrer" target="_blank"  aria-label="linkedin"><FaLinkedin /></a></li>
+                    <li><a href="https://dev.to/saintasia" rel="noopener noreferrer" target="_blank"  aria-label="devto"><FaDev /></a></li>
                   </ul>
                 </Fade>
               </Parallax>

@@ -51,12 +51,12 @@ const Footer = ({data}) => (
         <div className="Footer__innerItem">
           <ul className="Hero__social">
             <Fade bottom>
-              <li><a href="https://dribbble.com/saintasia" rel="noopener noreferrer" target="_blank"><FaDribbble /></a></li>
-              <li><a href="https://codepen.io/saintasia/" rel="noopener noreferrer" target="_blank"><FaCodepen /></a></li>
-              <li><a href="https://github.com/saintasia" rel="noopener noreferrer" target="_blank"><FaGithub /></a></li>
-              <li><a href="https://medium.com/@saintasia" rel="noopener noreferrer" target="_blank"><FaMediumM /></a></li>
-              <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener noreferrer" target="_blank"><FaLinkedin /></a></li>
-              <li><a href="https://dev.to/saintasia" rel="noopener noreferrer" target="_blank"><FaDev /></a></li>
+              <li><a href="https://dribbble.com/saintasia" rel="noopener noreferrer" target="_blank" aria-label="dribble"><FaDribbble /></a></li>
+              <li><a href="https://codepen.io/saintasia/" rel="noopener noreferrer" target="_blank" aria-label="codepen"><FaCodepen /></a></li>
+              <li><a href="https://github.com/saintasia" rel="noopener noreferrer" target="_blank" aria-label="github"><FaGithub /></a></li>
+              <li><a href="https://medium.com/@saintasia" rel="noopener noreferrer" target="_blank" aria-label="medium"><FaMediumM /></a></li>
+              <li><a href="https://www.linkedin.com/in/saintasia/" rel="noopener noreferrer" target="_blank" aria-label="linkedin"><FaLinkedin /></a></li>
+              <li><a href="https://dev.to/saintasia" rel="noopener noreferrer" target="_blank"  aria-label="devto"><FaDev /></a></li>
             </Fade>
           </ul>
         </div>
