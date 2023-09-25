@@ -1,11 +1,11 @@
 import React from 'react';
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Link } from "gatsby"
 import Fade from 'react-reveal/Fade';
 
 const AboutPage = () => (
   <>
-    <SEO title="Anastasia Kashkinova - UI designer & developer | About"/>
+    <Seo title="Anastasia Kashkinova - UI designer & developer | About"/>
     <div className="Container--text">
       <Fade bottom>
         <h1>About me</h1>

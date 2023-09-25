@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link, graphql} from 'gatsby';
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { FaArrowLeft } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
 
@@ -9,7 +9,7 @@ export default function Template({data}) {
 
   return (
     <>
-      <SEO title={`Anastasia Kashkinova - UI designer & developer | Works | ${work.frontmatter.title}`}/>
+      <Seo title={`Anastasia Kashkinova - UI designer & developer | Works | ${work.frontmatter.title}`}/>
       <div className="Works__hero">
         <div className="Works__hero__txt">
           <Fade bottom>

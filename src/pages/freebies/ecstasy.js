@@ -1,12 +1,12 @@
 import React from 'react';
-import SEO from "../../components/seo"
+import Seo from "../../components/seo"
 import { Link } from "gatsby"
 import { FaArrowLeft } from 'react-icons/fa';
 import Image from "../../components/imgs/ecstasy"
 
 const Ecstasy = () => (
   <>
-    <SEO title={`Anastasia Kashkinova - UI designer & developer | Freebies | Ecstasy FitBit Face`}/>
+    <Seo title={`Anastasia Kashkinova - UI designer & developer | Freebies | Ecstasy FitBit Face`}/>
     <div className="Works__hero">
       <div className="Works__hero__txt">
         <Link className="back-link" to="/freebies"><FaArrowLeft/> Back to freebies</Link>

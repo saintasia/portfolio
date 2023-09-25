@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin, FaArrowRight, FaDev } from 'react-icons/fa';
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Image from "../components/imgs/portrait"
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { Parallax } from 'react-scroll-parallax';
@@ -14,7 +14,7 @@ const IndexPage = ({data}) => {
 
   return (
     <>
-      <SEO title="Anastasia Kashkinova - UI designer & developer | Home"/>
+      <Seo title="Anastasia Kashkinova - UI designer & developer | Home"/>
       <ParallaxProvider>
         <section>
           <div className="Hero">

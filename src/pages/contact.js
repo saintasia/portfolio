@@ -1,10 +1,10 @@
 import React from 'react';
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import Fade from 'react-reveal/Fade';
 
 const ContactPage = () => (
   <>
-    <SEO title="Anastasia Kashkinova - UI designer & developer | Contact"/>
+    <Seo title="Anastasia Kashkinova - UI designer & developer | Contact"/>
     <div className="Container--text">
       <Fade bottom>
         <h1>Contact me</h1>

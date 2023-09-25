@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Concept = () => (
   <StaticQuery
@@ -15,7 +15,7 @@ const Concept = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => <StaticImage fluid={data.placeholderImage.childImageSharp.fluid} />}
   />
 )
 export default Concept

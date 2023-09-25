@@ -1,12 +1,12 @@
 import React from 'react';
-import SEO from "../../components/seo"
+import Seo from "../../components/seo"
 import { Link } from "gatsby"
 import { FaArrowLeft } from 'react-icons/fa';
 import Image from "../../components/imgs/hotelify"
 
 const Hotelify = () => (
   <>
-    <SEO title={`Anastasia Kashkinova - UI designer & developer | Freebies | Figma iOS kit`}/>
+    <Seo title={`Anastasia Kashkinova - UI designer & developer | Freebies | Figma iOS kit`}/>
     <div className="Works__hero">
       <div className="Works__hero__txt">
         <Link className="back-link" to="/freebies"><FaArrowLeft/> Back to freebies</Link>

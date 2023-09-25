@@ -1,5 +1,5 @@
 import React from "react"
-// import SEO from "../components/seo"
+// import Seo from "../components/seo"
 import {graphql} from 'gatsby'
 import Fade from 'react-reveal/Fade'
 import Thumbnail from '../components/thumbnail'

@@ -1,5 +1,5 @@
 import React from 'react';
-import SEO from "../../components/seo"
+import Seo from "../../components/seo"
 import { graphql } from 'gatsby'
 import { Link } from "gatsby"
 import { FaArrowLeft } from 'react-icons/fa';
@@ -7,7 +7,7 @@ import Image from "../../components/imgs/dailyui"
 
 const DailyUi = ({data}) => (
   <>
-    <SEO title={`Anastasia Kashkinova - UI designer & developer | Experiments | Daily UI`}/>
+    <Seo title={`Anastasia Kashkinova - UI designer & developer | Experiments | Daily UI`}/>
     <div className="Works__hero">
       <div className="Works__hero__txt">
         <Link className="back-link" to="/experiments"><FaArrowLeft/> Back to experiments</Link>
