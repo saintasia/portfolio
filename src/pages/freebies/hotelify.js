@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react'
 import Seo from "../../components/seo"
 import { Link } from "gatsby"
 import { FaArrowLeft } from 'react-icons/fa';
