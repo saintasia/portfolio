@@ -20,6 +20,7 @@ module.exports = {
           access_token: '77bb40ca541c390e7351f1be9fa07a5877b4950874729bc9ca2c0ac745e533ef'
       }
     },
+    `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-catch-links`,
     {

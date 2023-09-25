@@ -1,6 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const DailyUI = ({alt}) => (
   <StaticQuery
@@ -8,14 +8,12 @@ const DailyUI = ({alt}) => (
       query {
         placeholderImage: file(relativePath: { eq: "dailyui.png" }) {
           childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(layout: FULL_WIDTH)
           }
         }
       }
     `}
-    render={data => <StaticImage alt={alt} fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => <GatsbyImage alt={alt} layout="fullWidth" image={data.placeholderImage.childImageSharp.gatsbyImageData} />}
   />
 )
 export default DailyUI

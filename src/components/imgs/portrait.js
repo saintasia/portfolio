@@ -1,7 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
+import { GatsbyImage } from "gatsby-plugin-image"
 
 const Portrait = () => (
   <StaticQuery
@@ -9,14 +8,12 @@ const Portrait = () => (
       query {
         placeholderImage: file(relativePath: { eq: "portrait.png" }) {
           childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(layout: FULL_WIDTH)
           }
         }
       }
     `}
-    render={data => <StaticImage fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => <GatsbyImage layout="fullWidth" image={data.placeholderImage.childImageSharp.gatsbyImageData} />}
   />
 )
 export default Portrait
