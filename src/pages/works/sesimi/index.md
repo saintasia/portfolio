@@ -16,7 +16,7 @@ featured: true
 
 <br />
 
-##Role and project
+## Role and project
 <a href="https://sesimi.com/" target="_blank" rel="noopener">Sesimi</a> is an asset management system empowered by hyper-flexible templates, it is used to aid businesses across the globe in producing advertisements that strictly adhere to branding guidelines while allowing the flexibility of producing multiple variations, formats, and sizes (responsiveness). I currently work as a UX Engineer (part of engineering team), splitting my time between improving and creating user flows (including user research), as well as front-end engineering. Below are some of the problems and solutions that were discovered via user tests and feedback as well as the implemented improvements.
 
 ##Template Export

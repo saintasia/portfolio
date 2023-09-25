@@ -26,7 +26,7 @@ _**The users** are consumers and local florists. Consumers are a wide range of p
 <br />
 <div class="Container-slim">
 
-##Role and approach
+## Role and approach
 This project was a part of a bootcamp and had to be completed within **three weeks**. I was in charge of market research, surveys, user interviews and rounds of user testing. Using the acquired information I could then transfer what I learned into the UI design for the high-fidelity prototype and UI styleguide for further use.
 
 ![design thinking][design-thinking]
@@ -44,7 +44,7 @@ This project was a part of a bootcamp and had to be completed within **three wee
 <!-- text -->
 <div class="Works__main__txt self-center">
 
-##Discover
+## Discover
 The discovery phase started with comprehensive competitive research and running a **survey of 25 participants** via UsabilityHub to identify common user struggles and needs. Based on that data, **2 primary personas** and their use cases were crafted, followed by functionality ideation and moodboarding.
 
 </div><!-- text end -->
@@ -103,7 +103,7 @@ The discovery phase started with comprehensive competitive research and running 
 <!-- text -->
 <div class="Works__main__txt">
 
-##Design
+## Design
 Based on the personas created, the use cases, as well as project constraints and stakeholder wishes, I have created **3 task flows** for both the consumer and the floral businesses. Once the task flows were ready I created wireframes of **24 screens** to support primary user goals, before testing them with **3 users** and further refining designs based on the results.
 
 </div><!-- text end -->
@@ -157,7 +157,7 @@ _`Move the credit card prompt to when the user is checking out instead, as well 
 <!-- text -->
 <div class="Works__main__txt">
 
-##Deliver
+## Deliver
 The deliverables for this project were **UI style guide** and a **high-fidelity prototype**. The color scheme was decided to have only one main color and be grey-based to make it adaptable to any content. Once the elements were designed based on usability best practices, a high-fidelity prototype was created. Running another user test with **2 participants** uncovered new issues that were improved, as you can check from the following prototype.
 
 </div><!-- text end -->
@@ -168,7 +168,7 @@ The deliverables for this project were **UI style guide** and a **high-fidelity 
 <br />
 <div class="Container-slim">
 
-##Final Thoughts
+## Final Thoughts
 
 It can be very beneficial to run quantitative research in the earlier stages of concept development, it can give you a solid understanding of who the users are going to be and what they expect.
 
@@ -180,7 +180,7 @@ Just because a certain user flow is used in one of the top products, doesn’t m
 <br />
 <div class="Container-slim">
 
-##Next Steps
+## Next Steps
 
 One of the major parts for the next iterations is creating and testing a driver’s experience, how will they be notified and what should their experience on the app be?
 

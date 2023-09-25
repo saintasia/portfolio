@@ -15,5 +15,5 @@ featured: true
 
 <br />
 
-##Role and project
+## Role and project
 <a href="https://redbubble.design/" target="_blank" rel="noopener">Redbubble Design System</a> is a cohesive set of guidelines, principles, and assets that ensures a consistent and visually appealing user experience across the platform. I was a part of a small team fully in charge of the design system and its UI component library built in React. We were supporting the larger business with developing new components, guidelins, as well as quick prototypes.

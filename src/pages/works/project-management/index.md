@@ -27,7 +27,7 @@ _**The users** are start-up owners and employees ages 20-40, who are struggling 
 <br />
 <div class="Container-slim">
 
-##Role and approach
+## Role and approach
 This project was a part of bootcamp, and I had **three weeks** to complete all phases of the design thinking approach. I was working alone, doing consumer and market research, user interviews and rounds of user testing, as well as visual design for UI and final MVP high-fidelity prototype.
 
 ![design thinking][design-thinking]
@@ -45,7 +45,7 @@ This project was a part of bootcamp, and I had **three weeks** to complete all p
 <!-- text -->
 <div class="Works__main__txt self-center">
 
-##Discover
+## Discover
 I started the discovery phase of the project by going through the project constraints and needs, running market and consumer research, as well as implementing qualitative techniques and **interviewing 4 potential users**. Based on the data gathered, I could synthesize **2 primary personas**, **5 use cases**, moodboards and initial functionality ideas.
 
 </div><!-- text end -->
@@ -88,7 +88,7 @@ I started the discovery phase of the project by going through the project constr
 <!-- text -->
 <div class="Works__main__txt">
 
-##Design
+## Design
 Based on the interviewees’ feedbacks, use cases of our personas and client requirements, I then created **4 task flows** that helped me define the main functionality I needed for the initial wireframes and prototype. Once the prototype was ready, it was tested out by **3 users** and refined based on their feedback. The refined solutions were then tested again until users were satisfied.
 
 </div><!-- text end -->
@@ -144,7 +144,7 @@ _`As different tools use different naming conventions, the word ‘Messages’ c
 <!-- text -->
 <div class="Works__main__txt">
 
-##Deliver
+## Deliver
 The deliverables included **UI style guide** and a **high-fidelity prototype**. Once the color scheme and typography were in place, the elements were put together and a prototype supporting main user flows was created. To uncover any inconsistencies and usability flows before moving onto the next step, another round of **user testing** with **2 users** as well as **A/B testing** was held. Based on the findings, more tweaks were made to the prototype that you can click through below.
 
 </div><!-- text end -->
@@ -155,7 +155,7 @@ The deliverables included **UI style guide** and a **high-fidelity prototype**. 
 <br />
 <div class="Container-slim">
 
-##Final Thoughts
+## Final Thoughts
 
 Copy, terminology, and text in your designs are just as important as visual elements and should be treated and tested as such
 

@@ -5,11 +5,3 @@
  */
 
 // You can delete this file if you're not using it
-
-export const onRouteUpdate = () => {
-  const modalScripts = document.createElement("script")
-  modalScripts.id = "modalScripts"
-  modalScripts.src = "/scripts/modal.js"
-  modalScripts.async = true
-  document.body.appendChild(modalScripts)
-}

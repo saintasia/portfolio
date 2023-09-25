@@ -20,12 +20,12 @@ featured: false
 
 <br />
 
-##Role and project
+## Role and project
 <a href="https://sider.review/" target="_blank" rel="noopener">Sider</a> is a static code analysis SaaS for GitHub pull requests with the mission to simplify developers’ lives by automating code review. I have been a full-time **designer and front-end developer** working along with a team of 5 developers and other departments since December of 2017. My role included design, some front-end coding (**React, SASS**), and maintenance of their web application, with one round of total app redesign and development of at least 5 new features, as well as the constant iteration of existing features, user flows, and visual design
 
 <br />
 
-##Dashboard
+## Dashboard
 
 ![dashboard][dashboard]
 
@@ -41,7 +41,7 @@ The feature was released to a select number of customers, and all the relevant f
 
 <br />
 
-##Issue filtering
+## Issue filtering
 ![filters][filters]
 
 **Problem**: Users experiences difficulty scrolling through the long list of issues, unable to efficiently find and close specific types of code issues.
@@ -59,7 +59,7 @@ Testing the functionality with the real users and seeing them interact with the 
 
 <br />
 
-##Complete UI redesign
+## Complete UI redesign
 ![ui-1][ui-1]
 ![ui-2][ui-2]
 
