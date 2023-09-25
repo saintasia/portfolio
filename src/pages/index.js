@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import { FaDribbble, FaCodepen, FaGithub, FaMediumM, FaLinkedin, FaArrowRight, FaDev } from 'react-icons/fa';
 import SEO from "../components/seo"
 import Image from "../components/imgs/portrait"
@@ -91,16 +91,18 @@ const IndexPage = ({data}) => {
                   <Thumbnail
                     link="/experiments/dailyui/"
                     img="/images/dailyui.png"
+                    alt="The Daily UI challenge"
                     title="The Daily UI challenge"
-                    role="UI design"
+                    workRole="UI design"
                   />
                 </div>
                 <div className="Works__gridItem">
                   <Thumbnail
                     link="/experiments/concepts/"
                     img="/images/concept.png"
+                    alt="UI Concepts"
                     title="UI Concepts"
-                    role="UI design"
+                    workRole="UI design"
                   />
                 </div>
             </div>
@@ -124,7 +126,7 @@ const IndexPage = ({data}) => {
                   link="/freebies/hotelify/"
                   img="/images/hotelify/thumb.jpg"
                   title="Hotelify iOS UI Kit"
-                  role="UI design"
+                  workRole="UI design"
                 />
               </div>
               <div className="Works__gridItem">
@@ -132,7 +134,7 @@ const IndexPage = ({data}) => {
                   link="/freebies/ecstasy/"
                   img="/images/ecstasy/thumb.png"
                   title="Ecstasy Fitbit Watch Face"
-                  role="UI design, Development"
+                  workRole="UI design, Development"
                 />
               </div>
             </div>

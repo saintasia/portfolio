@@ -2,7 +2,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const DailyUI = () => (
+const DailyUI = ({alt}) => (
   <StaticQuery
     query={graphql`
       query {
@@ -15,7 +15,7 @@ const DailyUI = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => <Img alt={alt} fluid={data.placeholderImage.childImageSharp.fluid} />}
   />
 )
 export default DailyUI

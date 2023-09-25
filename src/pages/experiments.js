@@ -15,7 +15,7 @@ const ExperimentPage = () => (
             link="/experiments/dailyui/"
             img="/images/dailyui.png"
             title="The Daily UI challenge"
-            role="UI design"
+            workRole="UI design"
           />
         </div>
         <div className="Works__gridItem">
@@ -23,7 +23,7 @@ const ExperimentPage = () => (
             link="/experiments/concepts/"
             img="/images/concept.png"
             title="UI Concepts"
-            role="UI design"
+            workRole="UI design"
           />
         </div>
       </div>

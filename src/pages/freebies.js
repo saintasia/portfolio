@@ -14,7 +14,7 @@ const FreebiesPage = () => (
             link="/freebies/hotelify/"
             img="/images/hotelify/thumb.jpg"
             title="Hotelify iOS UI Kit"
-            role="UI design"
+            workRole="UI design"
           />
         </div>
         <div className="Works__gridItem">
@@ -22,7 +22,7 @@ const FreebiesPage = () => (
             link="/freebies/ecstasy/"
             img="/images/ecstasy/thumb.png"
             title="Ecstasy Fitbit Watch Face"
-            role="UI design, Development"
+            workRole="UI design, Development"
           />
         </div>
       </div>

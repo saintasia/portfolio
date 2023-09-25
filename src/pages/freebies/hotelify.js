@@ -26,11 +26,11 @@ const Hotelify = () => (
       </p>
     </div>
     <br/>
-    <img className="Works__expImg" src="/images/hotelify/details.jpg" />
-    <img className="Works__expImg" src="/images/hotelify/home.jpg" />
-    <img className="Works__expImg" src="/images/hotelify/search.jpg" />
-    <img className="Works__expImg" src="/images/hotelify/checkout.jpg" />
-    <img className="Works__expImg" src="/images/hotelify/about.jpg" />
+    <img className="Works__expImg" alt="details" src="/images/hotelify/details.jpg" />
+    <img className="Works__expImg" alt="home" src="/images/hotelify/home.jpg" />
+    <img className="Works__expImg" alt="search" src="/images/hotelify/search.jpg" />
+    <img className="Works__expImg" alt="checkout" src="/images/hotelify/checkout.jpg" />
+    <img className="Works__expImg" alt="about" src="/images/hotelify/about.jpg" />
   </>
 )
 

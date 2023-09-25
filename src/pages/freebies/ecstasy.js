@@ -26,7 +26,7 @@ const Ecstasy = () => (
       </p>
     </div>
     <br/>
-    <img className="Works__expImg" src="/images/ecstasy/details.png" />
+    <img alt="details" className="Works__expImg" src="/images/ecstasy/details.png" />
   </>
 )
 

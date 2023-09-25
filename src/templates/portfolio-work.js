@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import {Link, graphql} from 'gatsby';
 import SEO from "../components/seo"
 import { FaArrowLeft } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';

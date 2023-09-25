@@ -48,7 +48,7 @@ const DailyUi = () => (
           <div className="Works__expCard" key={shot.node.id}>
             <h3>{shot.node.title}</h3>
             <a className="Works__expImg" href={shot.node.url} target="_blank" rel="noopener noreferrer">
-              <img src={shot.node.cover} />
+              <img alt="Daily UI Dribble" src={shot.node.cover} />
             </a>
           </div>
         ))}
