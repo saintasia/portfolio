@@ -11,9 +11,16 @@ thumb: "/images/redbubble/thumb.png"
 featured: true
 ---
 
-[main]: /images/redbubble/main.png "Main"
+[about]: /images/redbubble/about.png "About"
 
 <br />
 
-## Role and project
-<a href="https://redbubble.design/" target="_blank" rel="noopener">Redbubble Design System</a> is a cohesive set of guidelines, principles, and assets that ensures a consistent and visually appealing user experience across the platform. I was a part of a small team fully in charge of the design system and its UI component library built in React. We were supporting the larger business with developing new components, guidelins, as well as quick prototypes.
+## Role
+
+<a href="https://redbubble.design/" target="_blank" rel="noopener">Redbubble Design System</a> is a cohesive set of guidelines, principles, and assets that ensures a consistent and visually appealing user experience across the platform. I was part of a small team fully responsible for the design system and its UI component library, built in React, supporting the larger business by developing new components, guidelines, and quick prototypes.
+
+## Work
+
+![about][about]
+
+Over the 7 months I worked for Redbubble, I successfully resolved multiple component issues raised by the larger business on GitHub, participated in design ideation sessions, assembled quick prototypes in the interactive Playroom according to design specs, refactored several components to enhance accessibility, and added layout documentation and playroom snippets.
