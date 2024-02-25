@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const ContactPage = () => (
   <>
-    <Seo title="Anastasia Kashkinova - UI designer & developer | Contact"/>
+    <Seo title="Anastasia - Freelance UI/UX designer & developer, Melbourne, Australa | Contact"/>
     <div className="Container--text">
       <Fade bottom>
         <h1>Contact me</h1>
