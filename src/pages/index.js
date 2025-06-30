@@ -30,7 +30,7 @@ const IndexPage = ({ data }) => {
               <Parallax y={parallaxValue}>
                 <Fade bottom>
                   <h1 className="Heading-blue">
-                    Producst Designer & UX Engineer
+                    Product Designer & Engineer
                     <span className="blue">.</span>
                   </h1>
                   <p>
