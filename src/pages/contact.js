@@ -1,14 +1,20 @@
-import * as React from 'react'
+import * as React from "react"
 import Seo from "../components/seo"
-import Fade from 'react-reveal/Fade';
+import Fade from "react-reveal/Fade"
 
 const ContactPage = () => (
   <>
-    <Seo title="Anastasia - Freelance UI/UX designer & developer, Melbourne, Australa | Contact"/>
+    <Seo title="Anastasia Kashkinova - Product Designer & UX Engineer | Contact" />
     <div className="Container--text">
       <Fade bottom>
         <h1>Contact me</h1>
-        <form className="Contact__Form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form
+          className="Contact__Form"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
           <input type="hidden" name="form-name" value="contact" />
           <div className="Contact__Form__Field">
             <input type="email" name="email" size="50" required />
@@ -19,7 +25,9 @@ const ContactPage = () => (
             <label htmlFor="message">Message:</label>
           </div>
           <p>
-            <button className="Contact__Form__Button" type="submit">Send</button>
+            <button className="Contact__Form__Button" type="submit">
+              Send
+            </button>
           </p>
         </form>
       </Fade>
@@ -27,4 +35,4 @@ const ContactPage = () => (
   </>
 )
 
-export default ContactPage;
+export default ContactPage

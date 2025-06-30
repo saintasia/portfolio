@@ -1,23 +1,34 @@
-import * as React from 'react'
-import {Link, graphql} from 'gatsby';
+import * as React from "react"
+import { Link, graphql } from "gatsby"
 import Seo from "../components/seo"
-import { FaArrowLeft } from 'react-icons/fa';
-import Fade from 'react-reveal/Fade';
+import { FaArrowLeft } from "react-icons/fa"
+import Fade from "react-reveal/Fade"
 
-export default function Template({data}) {
-  const work = data.markdownRemark;
+export default function Template({ data }) {
+  const work = data.markdownRemark
 
   return (
     <>
-      <Seo title={`Anastasia Kashkinova - UI designer & developer | Works | ${work.frontmatter.title}`}/>
+      <Seo
+        title={`Anastasia Kashkinova - Product Designer & UX Engineer | Works | ${work.frontmatter.title}`}
+      />
       <div className="Works__hero">
         <div className="Works__hero__txt">
           <Fade bottom>
-            <Link className="back-link" to="/works/"><FaArrowLeft/> Back to works</Link>
+            <Link className="back-link" to="/works/">
+              <FaArrowLeft /> Back to works
+            </Link>
             <h1>{work.frontmatter.title}</h1>
-            <div><b>Role:</b><p>{work.frontmatter.role}</p></div>
-            <div><b>Timeline:</b><p>{work.frontmatter.date}</p></div>
-            <div><b>Deliverables:</b>
+            <div>
+              <b>Role:</b>
+              <p>{work.frontmatter.role}</p>
+            </div>
+            <div>
+              <b>Timeline:</b>
+              <p>{work.frontmatter.date}</p>
+            </div>
+            <div>
+              <b>Deliverables:</b>
               <ul>
                 <li>{work.frontmatter.del1}</li>
                 <li>{work.frontmatter.del2}</li>
@@ -28,11 +39,17 @@ export default function Template({data}) {
         </div>
         <div className="Works__hero__img">
           <Fade>
-            <img alt={work.frontmatter.title} src={work.frontmatter.image}></img>
+            <img
+              alt={work.frontmatter.title}
+              src={work.frontmatter.image}
+            ></img>
           </Fade>
         </div>
       </div>
-      <div className="Works__main" dangerouslySetInnerHTML={{ __html: work.html }} />
+      <div
+        className="Works__main"
+        dangerouslySetInnerHTML={{ __html: work.html }}
+      />
       <div id="modal"></div>
     </>
   )
@@ -40,7 +57,7 @@ export default function Template({data}) {
 
 export const workQuery = graphql`
   query WorkByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }){
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
         path
